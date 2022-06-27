@@ -1,0 +1,540 @@
+id,scenario,class_num,project,name-param-samling,AUC-ROC,MCC,path,clf
+660,timewise,2,ZooKeeper,NB 0.1 RUS,0.635104518,0.28274804,z:\data\prediction_compare_2\timewise_ZooKeeper_NB 0.1 RUS_10.pk,NB
+1572,timewise,3,ZooKeeper,NB 1 ROS,0.546945827,0.128680749,z:\data\prediction_compare_3\timewise_ZooKeeper_NB 1 ROS_10.pk,NB
+3336,timewise,5,ZooKeeper,NB 1e-05 SMOTE,0.554232969,0.11459141,z:\data\prediction_compare_5\timewise_ZooKeeper_NB 1e-05 SMOTE_10.pk,NB
+4272,within,2,ZooKeeper,NB 1 RUS,0.575815217,0.192634286,z:\data\prediction_compare_2\within_ZooKeeper_NB 1 RUS_10_.pk,NB
+4860,within,3,ZooKeeper,NB 0.1 NONE,0.537741581,0.08835348,z:\data\prediction_compare_3\within_ZooKeeper_NB 0.1 NONE_10_.pk,NB
+6912,within,5,ZooKeeper,NB 1e-09 SMOTE,0.526937732,0.056450185,z:\data\prediction_compare_5\within_ZooKeeper_NB 1e-09 SMOTE_10_.pk,NB
+7860,cross,2,ZooKeeper,NB 0.1 RUS,0.601488095,0.234916268,z:\data\prediction_compare_2\cross_ZooKeeper_NB 0.1 RUS_10.pk,NB
+8712,cross,3,ZooKeeper,NB 1e-09 ROS,0.533620919,0.078600815,z:\data\prediction_compare_3\cross_ZooKeeper_NB 1e-09 ROS_10.pk,NB
+10512,cross,5,ZooKeeper,NB 1e-09 SMOTE,0.524411346,0.052074802,z:\data\prediction_compare_5\cross_ZooKeeper_NB 1e-09 SMOTE_10.pk,NB
+325,timewise,2,Hadoop Common,NB 1e-07 ROS,0.648484132,0.283234268,z:\data\prediction_compare_2\timewise_Hadoop Common_NB 1e-07 ROS_10.pk,NB
+1525,timewise,3,Hadoop Common,NB 1e-07 ROS,0.541223201,0.092520261,z:\data\prediction_compare_3\timewise_Hadoop Common_NB 1e-07 ROS_10.pk,NB
+2449,timewise,5,Hadoop Common,NB 0.001 NONE,0.523821078,0.047444315,z:\data\prediction_compare_5\timewise_Hadoop Common_NB 0.001 NONE_10.pk,NB
+3673,within,2,Hadoop Common,NB 1 NONE,0.653800175,0.315218848,z:\data\prediction_compare_2\within_Hadoop Common_NB 1 NONE_10_.pk,NB
+4813,within,3,Hadoop Common,NB 1e-09 NONE,0.554545837,0.121800698,z:\data\prediction_compare_3\within_Hadoop Common_NB 1e-09 NONE_10_.pk,NB
+6013,within,5,Hadoop Common,NB 1e-09 NONE,0.540646556,0.090641417,z:\data\prediction_compare_5\within_Hadoop Common_NB 1e-09 NONE_10_.pk,NB
+7549,cross,2,Hadoop Common,NB 0.001 ROS,0.557113247,0.117777055,z:\data\prediction_compare_2\cross_Hadoop Common_NB 0.001 ROS_10.pk,NB
+9049,cross,3,Hadoop Common,NB 0.001 RUS,0.508313238,0.033082945,z:\data\prediction_compare_3\cross_Hadoop Common_NB 0.001 RUS_10.pk,NB
+10213,cross,5,Hadoop Common,NB 1e-09 RUS,0.511470383,0.022776257,z:\data\prediction_compare_5\cross_Hadoop Common_NB 1e-09 RUS_10.pk,NB
+374,timewise,2,Hadoop Map/Reduce,NB 1 ROS,0.652661593,0.321662125,z:\data\prediction_compare_2\timewise_Hadoop MapReduce_NB 1 ROS_10.pk,NB
+1574,timewise,3,Hadoop Map/Reduce,NB 1 ROS,0.541522109,0.110435141,z:\data\prediction_compare_3\timewise_Hadoop MapReduce_NB 1 ROS_10.pk,NB
+3350,timewise,5,Hadoop Map/Reduce,NB 0.001 SMOTE,0.515227743,0.035416552,z:\data\prediction_compare_5\timewise_Hadoop MapReduce_NB 0.001 SMOTE_10.pk,NB
+3962,within,2,Hadoop Map/Reduce,NB 0.1 ROS,0.672603855,0.348495301,z:\data\prediction_compare_2\within_Hadoop MapReduce_NB 0.1 ROS_10_.pk,NB
+4826,within,3,Hadoop Map/Reduce,NB 1e-07 NONE,0.548944285,0.117466766,z:\data\prediction_compare_3\within_Hadoop MapReduce_NB 1e-07 NONE_10_.pk,NB
+6674,within,5,Hadoop Map/Reduce,NB 1 RUS,0.529812363,0.076998515,z:\data\prediction_compare_5\within_Hadoop MapReduce_NB 1 RUS_10_.pk,NB
+7562,cross,2,Hadoop Map/Reduce,NB 0.1 ROS,0.547468333,0.114459459,z:\data\prediction_compare_2\cross_Hadoop MapReduce_NB 0.1 ROS_10.pk,NB
+9014,cross,3,Hadoop Map/Reduce,NB 1e-09 RUS,0.523860146,0.060812312,z:\data\prediction_compare_3\cross_Hadoop MapReduce_NB 1e-09 RUS_10.pk,NB
+9614,cross,5,Hadoop Map/Reduce,NB 1e-09 NONE,0.518755014,0.04365047,z:\data\prediction_compare_5\cross_Hadoop MapReduce_NB 1e-09 NONE_10.pk,NB
+627,timewise,2,Hive,NB 1e-07 RUS,0.583757322,0.164780908,z:\data\prediction_compare_2\timewise_Hive_NB 1e-07 RUS_10.pk,NB
+2151,timewise,3,Hive,NB 0.001 SMOTE,0.584367146,0.130929814,z:\data\prediction_compare_3\timewise_Hive_NB 0.001 SMOTE_10.pk,NB
+2739,timewise,5,Hive,NB 1e-05 ROS,0.559706981,0.087598571,z:\data\prediction_compare_5\timewise_Hive_NB 1e-05 ROS_10.pk,NB
+4215,within,2,Hive,NB 1e-09 RUS,0.622686157,0.249526484,z:\data\prediction_compare_2\within_Hive_NB 1e-09 RUS_10_.pk,NB
+4815,within,3,Hive,NB 1e-09 NONE,0.584380618,0.138658259,z:\data\prediction_compare_3\within_Hive_NB 1e-09 NONE_10_.pk,NB
+6615,within,5,Hive,NB 1e-09 RUS,0.557965981,0.078027835,z:\data\prediction_compare_5\within_Hive_NB 1e-09 RUS_10_.pk,NB
+8163,cross,2,Hive,NB 0.1 SMOTE,0.583125576,0.164069968,z:\data\prediction_compare_2\cross_Hive_NB 0.1 SMOTE_10.pk,NB
+8763,cross,3,Hive,NB 0.1 ROS,0.510042092,0.046036359,z:\data\prediction_compare_3\cross_Hive_NB 0.1 ROS_10.pk,NB
+10551,cross,5,Hive,NB 0.001 SMOTE,0.503958694,0.015397175,z:\data\prediction_compare_5\cross_Hive_NB 0.001 SMOTE_10.pk,NB
+16,timewise,2,Cassandra,NB 1e-09 NONE,0.569597918,0.080153519,z:\data\prediction_compare_2\timewise_Cassandra_NB 1e-09 NONE_10.pk,NB
+2116,timewise,3,Cassandra,NB 1e-09 SMOTE,0.534444079,0.064687904,z:\data\prediction_compare_3\timewise_Cassandra_NB 1e-09 SMOTE_10.pk,NB
+3316,timewise,5,Cassandra,NB 1e-09 SMOTE,0.535287079,0.067856515,z:\data\prediction_compare_5\timewise_Cassandra_NB 1e-09 SMOTE_10.pk,NB
+3916,within,2,Cassandra,NB 1e-09 ROS,0.590287741,0.11155888,z:\data\prediction_compare_2\within_Cassandra_NB 1e-09 ROS_10_.pk,NB
+4816,within,3,Cassandra,NB 1e-09 NONE,0.539378279,0.081836848,z:\data\prediction_compare_3\within_Cassandra_NB 1e-09 NONE_10_.pk,NB
+6916,within,5,Cassandra,NB 1e-09 SMOTE,0.52257044,0.048465463,z:\data\prediction_compare_5\within_Cassandra_NB 1e-09 SMOTE_10_.pk,NB
+7516,cross,2,Cassandra,NB 1e-09 ROS,0.521549335,0.027969884,z:\data\prediction_compare_2\cross_Cassandra_NB 1e-09 ROS_10.pk,NB
+8416,cross,3,Cassandra,NB 1e-09 NONE,0.534914701,0.066545797,z:\data\prediction_compare_3\cross_Cassandra_NB 1e-09 NONE_10.pk,NB
+9616,cross,5,Cassandra,NB 1e-09 NONE,0.516603628,0.034120945,z:\data\prediction_compare_5\cross_Cassandra_NB 1e-09 NONE_10.pk,NB
+965,timewise,2,Camel,NB 0.1 SMOTE,0.608786554,0.132389565,z:\data\prediction_compare_2\timewise_Camel_NB 0.1 SMOTE_10.pk,NB
+1265,timewise,3,Camel,NB 0.1 NONE,0.598345103,0.180774017,z:\data\prediction_compare_3\timewise_Camel_NB 0.1 NONE_10.pk,NB
+2465,timewise,5,Camel,NB 0.1 NONE,0.594207438,0.1704111,z:\data\prediction_compare_5\timewise_Camel_NB 0.1 NONE_10.pk,NB
+3653,within,2,Camel,NB 0.001 NONE,0.657241539,0.228210564,z:\data\prediction_compare_2\within_Camel_NB 0.001 NONE_10_.pk,NB
+4853,within,3,Camel,NB 0.001 NONE,0.584536181,0.171042267,z:\data\prediction_compare_3\within_Camel_NB 0.001 NONE_10_.pk,NB
+6053,within,5,Camel,NB 0.001 NONE,0.57719471,0.159074903,z:\data\prediction_compare_5\within_Camel_NB 0.001 NONE_10_.pk,NB
+7541,cross,2,Camel,NB 1e-05 ROS,0.508972268,0.045879525,z:\data\prediction_compare_2\cross_Camel_NB 1e-05 ROS_10.pk,NB
+8465,cross,3,Camel,NB 0.1 NONE,0.557336184,0.08082062,z:\data\prediction_compare_3\cross_Camel_NB 0.1 NONE_10.pk,NB
+9653,cross,5,Camel,NB 0.001 NONE,0.561005164,0.069703523,z:\data\prediction_compare_5\cross_Camel_NB 0.001 NONE_10.pk,NB
+930,timewise,2,OFBiz,NB 1e-07 SMOTE,0.591421614,0.109314314,z:\data\prediction_compare_2\timewise_OFBiz_NB 1e-07 SMOTE_10.pk,NB
+1278,timewise,3,OFBiz,NB 1 NONE,0.519082028,0.040724603,z:\data\prediction_compare_3\timewise_OFBiz_NB 1 NONE_10.pk,NB
+3342,timewise,5,OFBiz,NB 1e-05 SMOTE,0.511374022,0.022906014,z:\data\prediction_compare_5\timewise_OFBiz_NB 1e-05 SMOTE_10.pk,NB
+3630,within,2,OFBiz,NB 1e-07 NONE,0.546705371,0.057821364,z:\data\prediction_compare_2\within_OFBiz_NB 1e-07 NONE_10_.pk,NB
+4818,within,3,OFBiz,NB 1e-09 NONE,0.525019164,0.054901292,z:\data\prediction_compare_3\within_OFBiz_NB 1e-09 NONE_10_.pk,NB
+6918,within,5,OFBiz,NB 1e-09 SMOTE,0.525204963,0.055924785,z:\data\prediction_compare_5\within_OFBiz_NB 1e-09 SMOTE_10_.pk,NB
+8118,cross,2,OFBiz,NB 1e-09 SMOTE,0.511363341,0.022176949,z:\data\prediction_compare_2\cross_OFBiz_NB 1e-09 SMOTE_10.pk,NB
+9078,cross,3,OFBiz,NB 1 RUS,0.510754212,0.020931943,z:\data\prediction_compare_3\cross_OFBiz_NB 1 RUS_10.pk,NB
+10518,cross,5,OFBiz,NB 1e-09 SMOTE,0.510651244,0.036851459,z:\data\prediction_compare_5\cross_OFBiz_NB 1e-09 SMOTE_10.pk,NB
+919,timewise,2,Wicket,NB 1e-09 SMOTE,0.56335888,0.084209062,z:\data\prediction_compare_2\timewise_Wicket_NB 1e-09 SMOTE_10.pk,NB
+2119,timewise,3,Wicket,NB 1e-09 SMOTE,0.528079572,0.055014334,z:\data\prediction_compare_3\timewise_Wicket_NB 1e-09 SMOTE_10.pk,NB
+2419,timewise,5,Wicket,NB 1e-09 NONE,0.520929874,0.03800999,z:\data\prediction_compare_5\timewise_Wicket_NB 1e-09 NONE_10.pk,NB
+3919,within,2,Wicket,NB 1e-09 ROS,0.617196293,0.187630977,z:\data\prediction_compare_2\within_Wicket_NB 1e-09 ROS_10_.pk,NB
+4831,within,3,Wicket,NB 1e-07 NONE,0.519985674,0.055407305,z:\data\prediction_compare_3\within_Wicket_NB 1e-07 NONE_10_.pk,NB
+6655,within,5,Wicket,NB 0.001 RUS,0.514764829,0.028885045,z:\data\prediction_compare_5\within_Wicket_NB 0.001 RUS_10_.pk,NB
+7519,cross,2,Wicket,NB 1e-09 ROS,0.54734998,0.072552408,z:\data\prediction_compare_2\cross_Wicket_NB 1e-09 ROS_10.pk,NB
+8719,cross,3,Wicket,NB 1e-09 ROS,0.517233276,0.054512757,z:\data\prediction_compare_3\cross_Wicket_NB 1e-09 ROS_10.pk,NB
+9655,cross,5,Wicket,NB 0.001 NONE,0.505315266,0.008817042,z:\data\prediction_compare_5\cross_Wicket_NB 0.001 NONE_10.pk,NB
+620,timewise,2,Hibernate ORM,NB 1e-09 RUS,0.527675149,0.057167434,z:\data\prediction_compare_2\timewise_Hibernate ORM_NB 1e-09 RUS_10.pk,NB
+2132,timewise,3,Hibernate ORM,NB 1e-07 SMOTE,0.525309018,0.034389512,z:\data\prediction_compare_3\timewise_Hibernate ORM_NB 1e-07 SMOTE_10.pk,NB
+3320,timewise,5,Hibernate ORM,NB 1e-09 SMOTE,0.52430114,0.025648156,z:\data\prediction_compare_5\timewise_Hibernate ORM_NB 1e-09 SMOTE_10.pk,NB
+4220,within,2,Hibernate ORM,NB 1e-09 RUS,0.545455796,0.095866566,z:\data\prediction_compare_2\within_Hibernate ORM_NB 1e-09 RUS_10_.pk,NB
+4856,within,3,Hibernate ORM,NB 0.001 NONE,0.538230158,0.062298257,z:\data\prediction_compare_3\within_Hibernate ORM_NB 0.001 NONE_10_.pk,NB
+6056,within,5,Hibernate ORM,NB 0.001 NONE,0.53656833,0.055581157,z:\data\prediction_compare_5\within_Hibernate ORM_NB 0.001 NONE_10_.pk,NB
+7568,cross,2,Hibernate ORM,NB 0.1 ROS,0.545788651,0.093908228,z:\data\prediction_compare_2\cross_Hibernate ORM_NB 0.1 ROS_10.pk,NB
+8420,cross,3,Hibernate ORM,NB 1e-09 NONE,0.510256474,0.023378208,z:\data\prediction_compare_3\cross_Hibernate ORM_NB 1e-09 NONE_10.pk,NB
+10220,cross,5,Hibernate ORM,NB 1e-09 RUS,0.504833375,0.011862152,z:\data\prediction_compare_5\cross_Hibernate ORM_NB 1e-09 RUS_10.pk,NB
+681,timewise,2,Hadoop HDFS,NB 1 RUS,0.61824394,0.248101842,z:\data\prediction_compare_2\timewise_Hadoop HDFS_NB 1 RUS_10.pk,NB
+1233,timewise,3,Hadoop HDFS,NB 1e-07 NONE,0.531415916,0.070345113,z:\data\prediction_compare_3\timewise_Hadoop HDFS_NB 1e-07 NONE_10.pk,NB
+3381,timewise,5,Hadoop HDFS,NB 1 SMOTE,0.527222266,0.053192992,z:\data\prediction_compare_5\timewise_Hadoop HDFS_NB 1 SMOTE_10.pk,NB
+4221,within,2,Hadoop HDFS,NB 1e-09 RUS,0.629301347,0.261642278,z:\data\prediction_compare_2\within_Hadoop HDFS_NB 1e-09 RUS_10_.pk,NB
+4821,within,3,Hadoop HDFS,NB 1e-09 NONE,0.536015032,0.088919797,z:\data\prediction_compare_3\within_Hadoop HDFS_NB 1e-09 NONE_10_.pk,NB
+6369,within,5,Hadoop HDFS,NB 0.1 ROS,0.530653981,0.065162584,z:\data\prediction_compare_5\within_Hadoop HDFS_NB 0.1 ROS_10_.pk,NB
+7869,cross,2,Hadoop HDFS,NB 0.1 RUS,0.583925319,0.171050776,z:\data\prediction_compare_2\cross_Hadoop HDFS_NB 0.1 RUS_10.pk,NB
+9021,cross,3,Hadoop HDFS,NB 1e-09 RUS,0.525794019,0.062449743,z:\data\prediction_compare_3\cross_Hadoop HDFS_NB 1e-09 RUS_10.pk,NB
+10221,cross,5,Hadoop HDFS,NB 1e-09 RUS,0.525617856,0.041847935,z:\data\prediction_compare_5\cross_Hadoop HDFS_NB 1e-09 RUS_10.pk,NB
+622,timewise,2,Harmony,NB 1e-09 RUS,0.536780218,0.05526716,z:\data\prediction_compare_2\timewise_Harmony_NB 1e-09 RUS_10.pk,NB
+1222,timewise,3,Harmony,NB 1e-09 NONE,0.560005622,0.09434508,z:\data\prediction_compare_3\timewise_Harmony_NB 1e-09 NONE_10.pk,NB
+3322,timewise,5,Harmony,NB 1e-09 SMOTE,0.549345124,0.06031488,z:\data\prediction_compare_5\timewise_Harmony_NB 1e-09 SMOTE_10.pk,NB
+4234,within,2,Harmony,NB 1e-07 RUS,0.63006926,0.162639159,z:\data\prediction_compare_2\within_Harmony_NB 1e-07 RUS_10_.pk,NB
+4822,within,3,Harmony,NB 1e-09 NONE,0.540319219,0.087687019,z:\data\prediction_compare_3\within_Harmony_NB 1e-09 NONE_10_.pk,NB
+6022,within,5,Harmony,NB 1e-09 NONE,0.525251692,0.050345396,z:\data\prediction_compare_5\within_Harmony_NB 1e-09 NONE_10_.pk,NB
+7222,cross,2,Harmony,NB 1e-09 NONE,0.586270589,0.105204067,z:\data\prediction_compare_2\cross_Harmony_NB 1e-09 NONE_10.pk,NB
+8422,cross,3,Harmony,NB 1e-09 NONE,0.531321843,0.063394876,z:\data\prediction_compare_3\cross_Harmony_NB 1e-09 NONE_10.pk,NB
+10222,cross,5,Harmony,NB 1e-09 RUS,0.512867329,0.031942134,z:\data\prediction_compare_5\cross_Harmony_NB 1e-09 RUS_10.pk,NB
+71,timewise,2,HBase,NB 0.1 NONE,0.662730036,0.342179975,z:\data\prediction_compare_2\timewise_HBase_NB 0.1 NONE_10.pk,NB
+1223,timewise,3,HBase,NB 1e-09 NONE,0.541574992,0.095349166,z:\data\prediction_compare_3\timewise_HBase_NB 1e-09 NONE_10.pk,NB
+2435,timewise,5,HBase,NB 1e-07 NONE,0.525421962,0.049785131,z:\data\prediction_compare_5\timewise_HBase_NB 1e-07 NONE_10.pk,NB
+4235,within,2,HBase,NB 1e-07 RUS,0.692235016,0.391628387,z:\data\prediction_compare_2\within_HBase_NB 1e-07 RUS_10_.pk,NB
+4823,within,3,HBase,NB 1e-09 NONE,0.569589615,0.153501193,z:\data\prediction_compare_3\within_HBase_NB 1e-09 NONE_10_.pk,NB
+6023,within,5,HBase,NB 1e-09 NONE,0.554454255,0.118082215,z:\data\prediction_compare_5\within_HBase_NB 1e-09 NONE_10_.pk,NB
+7223,cross,2,HBase,NB 1e-09 NONE,0.528684113,0.060975262,z:\data\prediction_compare_2\cross_HBase_NB 1e-09 NONE_10.pk,NB
+8411,cross,3,HBase,NB 0 NONE,0.5,0,z:\data\prediction_compare_3\cross_HBase_NB 0 NONE_10.pk,NB
+9611,cross,5,HBase,NB 0 NONE,0.5,0,z:\data\prediction_compare_5\cross_HBase_NB 0 NONE_10.pk,NB
+384,timewise,2,ZooKeeper,DT 2 ROS,0.621728337,0.245265486,z:\data\prediction_compare_2\timewise_ZooKeeper_DT 2 ROS_10.pk,DT
+2184,timewise,3,ZooKeeper,DT 2 SMOTE,0.552712141,0.107645733,z:\data\prediction_compare_3\timewise_ZooKeeper_DT 2 SMOTE_10.pk,DT
+3420,timewise,5,ZooKeeper,DT 14 SMOTE,0.584316662,0.168683898,z:\data\prediction_compare_5\timewise_ZooKeeper_DT 14 SMOTE_10.pk,DT
+4296,within,2,ZooKeeper,DT 6 RUS,0.624193017,0.250500793,z:\data\prediction_compare_2\within_ZooKeeper_DT 6 RUS_10_.pk,DT
+4884,within,3,ZooKeeper,DT 2 NONE,0.549290725,0.101836517,z:\data\prediction_compare_3\within_ZooKeeper_DT 2 NONE_10_.pk,DT
+6132,within,5,ZooKeeper,DT 18 NONE,0.55447036,0.097002307,z:\data\prediction_compare_5\within_ZooKeeper_DT 18 NONE_10_.pk,DT
+7284,cross,2,ZooKeeper,DT 2 NONE,0.554613095,0.11990852,z:\data\prediction_compare_2\cross_ZooKeeper_DT 2 NONE_10.pk,DT
+8808,cross,3,ZooKeeper,DT 10 ROS,0.536911978,0.075867123,z:\data\prediction_compare_3\cross_ZooKeeper_DT 10 ROS_10.pk,DT
+10596,cross,5,ZooKeeper,DT 6 SMOTE,0.520414646,0.033109713,z:\data\prediction_compare_5\cross_ZooKeeper_DT 6 SMOTE_10.pk,DT
+697,timewise,2,Hadoop Common,DT 6 RUS,0.615466374,0.219836014,z:\data\prediction_compare_2\timewise_Hadoop Common_DT 6 RUS_10.pk,DT
+2185,timewise,3,Hadoop Common,DT 2 SMOTE,0.549360824,0.097898265,z:\data\prediction_compare_3\timewise_Hadoop Common_DT 2 SMOTE_10.pk,DT
+3397,timewise,5,Hadoop Common,DT 6 SMOTE,0.538217153,0.071260874,z:\data\prediction_compare_5\timewise_Hadoop Common_DT 6 SMOTE_10.pk,DT
+4285,within,2,Hadoop Common,DT 2 RUS,0.672742561,0.34663281,z:\data\prediction_compare_2\within_Hadoop Common_DT 2 RUS_10_.pk,DT
+4885,within,3,Hadoop Common,DT 2 NONE,0.573153257,0.147938335,z:\data\prediction_compare_3\within_Hadoop Common_DT 2 NONE_10_.pk,DT
+6121,within,5,Hadoop Common,DT 14 NONE,0.557537228,0.119149872,z:\data\prediction_compare_5\within_Hadoop Common_DT 14 NONE_10_.pk,DT
+7297,cross,2,Hadoop Common,DT 6 NONE,0.582117957,0.165515127,z:\data\prediction_compare_2\cross_Hadoop Common_DT 6 NONE_10.pk,DT
+9097,cross,3,Hadoop Common,DT 6 RUS,0.525585945,0.053594687,z:\data\prediction_compare_3\cross_Hadoop Common_DT 6 RUS_10.pk,DT
+9733,cross,5,Hadoop Common,DT 18 NONE,0.520880803,0.044124384,z:\data\prediction_compare_5\cross_Hadoop Common_DT 18 NONE_10.pk,DT
+86,timewise,2,Hadoop Map/Reduce,DT 2 NONE,0.609120383,0.220254896,z:\data\prediction_compare_2\timewise_Hadoop MapReduce_DT 2 NONE_10.pk,DT
+1310,timewise,3,Hadoop Map/Reduce,DT 10 NONE,0.556149086,0.106088559,z:\data\prediction_compare_3\timewise_Hadoop MapReduce_DT 10 NONE_10.pk,DT
+3386,timewise,5,Hadoop Map/Reduce,DT 2 SMOTE,0.551355207,0.091086916,z:\data\prediction_compare_5\timewise_Hadoop MapReduce_DT 2 SMOTE_10.pk,DT
+4322,within,2,Hadoop Map/Reduce,DT 14 RUS,0.697671818,0.395568807,z:\data\prediction_compare_2\within_Hadoop MapReduce_DT 14 RUS_10_.pk,DT
+4886,within,3,Hadoop Map/Reduce,DT 2 NONE,0.557767359,0.121298082,z:\data\prediction_compare_3\within_Hadoop MapReduce_DT 2 NONE_10_.pk,DT
+6110,within,5,Hadoop Map/Reduce,DT 10 NONE,0.570769627,0.126799315,z:\data\prediction_compare_5\within_Hadoop MapReduce_DT 10 NONE_10_.pk,DT
+7610,cross,2,Hadoop Map/Reduce,DT 10 ROS,0.616987212,0.234409384,z:\data\prediction_compare_2\cross_Hadoop MapReduce_DT 10 ROS_10.pk,DT
+8486,cross,3,Hadoop Map/Reduce,DT 2 NONE,0.526697299,0.050838092,z:\data\prediction_compare_3\cross_Hadoop MapReduce_DT 2 NONE_10.pk,DT
+10034,cross,5,Hadoop Map/Reduce,DT 18 ROS,0.526596934,0.04897309,z:\data\prediction_compare_5\cross_Hadoop MapReduce_DT 18 ROS_10.pk,DT
+687,timewise,2,Hive,DT 2 RUS,0.562108165,0.114326723,z:\data\prediction_compare_2\timewise_Hive_DT 2 RUS_10.pk,DT
+2187,timewise,3,Hive,DT 2 SMOTE,0.552277613,0.089370714,z:\data\prediction_compare_3\timewise_Hive_DT 2 SMOTE_10.pk,DT
+3387,timewise,5,Hive,DT 2 SMOTE,0.670031069,0.275148436,z:\data\prediction_compare_5\timewise_Hive_DT 2 SMOTE_10.pk,DT
+3687,within,2,Hive,DT 2 NONE,0.633158421,0.266839107,z:\data\prediction_compare_2\within_Hive_DT 2 NONE_10_.pk,DT
+4899,within,3,Hive,DT 6 NONE,0.560125316,0.107039549,z:\data\prediction_compare_3\within_Hive_DT 6 NONE_10_.pk,DT
+6111,within,5,Hive,DT 10 NONE,0.58213354,0.139226275,z:\data\prediction_compare_5\within_Hive_DT 10 NONE_10_.pk,DT
+7611,cross,2,Hive,DT 10 ROS,0.554724524,0.114208234,z:\data\prediction_compare_2\cross_Hive_DT 10 ROS_10.pk,DT
+9411,cross,3,Hive,DT 10 SMOTE,0.526627124,0.042013614,z:\data\prediction_compare_3\cross_Hive_DT 10 SMOTE_10.pk,DT
+10611,cross,5,Hive,DT 10 SMOTE,0.527206655,0.047496292,z:\data\prediction_compare_5\cross_Hive_DT 10 SMOTE_10.pk,DT
+1000,timewise,2,Cassandra,DT 6 SMOTE,0.584087209,0.136116564,z:\data\prediction_compare_2\timewise_Cassandra_DT 6 SMOTE_10.pk,DT
+1600,timewise,3,Cassandra,DT 6 ROS,0.560096818,0.120189742,z:\data\prediction_compare_3\timewise_Cassandra_DT 6 ROS_10.pk,DT
+3400,timewise,5,Cassandra,DT 6 SMOTE,0.551333236,0.098276181,z:\data\prediction_compare_5\timewise_Cassandra_DT 6 SMOTE_10.pk,DT
+4288,within,2,Cassandra,DT 2 RUS,0.573627052,0.087745916,z:\data\prediction_compare_2\within_Cassandra_DT 2 RUS_10_.pk,DT
+4888,within,3,Cassandra,DT 2 NONE,0.567519712,0.131236956,z:\data\prediction_compare_3\within_Cassandra_DT 2 NONE_10_.pk,DT
+6136,within,5,Cassandra,DT 18 NONE,0.548474799,0.096419979,z:\data\prediction_compare_5\within_Cassandra_DT 18 NONE_10_.pk,DT
+8212,cross,2,Cassandra,DT 10 SMOTE,0.549625831,0.060797455,z:\data\prediction_compare_2\cross_Cassandra_DT 10 SMOTE_10.pk,DT
+9436,cross,3,Cassandra,DT 18 SMOTE,0.513924876,0.024908515,z:\data\prediction_compare_3\cross_Cassandra_DT 18 SMOTE_10.pk,DT
+10636,cross,5,Cassandra,DT 18 SMOTE,0.527322689,0.050376304,z:\data\prediction_compare_5\cross_Cassandra_DT 18 SMOTE_10.pk,DT
+389,timewise,2,Camel,DT 2 ROS,0.598271785,0.171057977,z:\data\prediction_compare_2\timewise_Camel_DT 2 ROS_10.pk,DT
+1289,timewise,3,Camel,DT 2 NONE,0.571184804,0.132738669,z:\data\prediction_compare_3\timewise_Camel_DT 2 NONE_10.pk,DT
+3413,timewise,5,Camel,DT 10 SMOTE,0.546090433,0.082966109,z:\data\prediction_compare_5\timewise_Camel_DT 10 SMOTE_10.pk,DT
+4289,within,2,Camel,DT 2 RUS,0.641419884,0.184729376,z:\data\prediction_compare_2\within_Camel_DT 2 RUS_10_.pk,DT
+4901,within,3,Camel,DT 6 NONE,0.541713437,0.084549716,z:\data\prediction_compare_3\within_Camel_DT 6 NONE_10_.pk,DT
+6089,within,5,Camel,DT 2 NONE,0.563918473,0.117987552,z:\data\prediction_compare_5\within_Camel_DT 2 NONE_10_.pk,DT
+7925,cross,2,Camel,DT 14 RUS,0.574673736,0.115607228,z:\data\prediction_compare_2\cross_Camel_DT 14 RUS_10.pk,DT
+8513,cross,3,Camel,DT 10 NONE,0.540189252,0.064186644,z:\data\prediction_compare_3\cross_Camel_DT 10 NONE_10.pk,DT
+10601,cross,5,Camel,DT 6 SMOTE,0.524697332,0.02876679,z:\data\prediction_compare_5\cross_Camel_DT 6 SMOTE_10.pk,DT
+738,timewise,2,OFBiz,DT 18 RUS,0.545512575,0.059873194,z:\data\prediction_compare_2\timewise_OFBiz_DT 18 RUS_10.pk,DT
+2190,timewise,3,OFBiz,DT 2 SMOTE,0.543251082,0.085187297,z:\data\prediction_compare_3\timewise_OFBiz_DT 2 SMOTE_10.pk,DT
+3414,timewise,5,OFBiz,DT 10 SMOTE,0.540049999,0.077573978,z:\data\prediction_compare_5\timewise_OFBiz_DT 10 SMOTE_10.pk,DT
+3726,within,2,OFBiz,DT 14 NONE,0.593030854,0.158253283,z:\data\prediction_compare_2\within_OFBiz_DT 14 NONE_10_.pk,DT
+4890,within,3,OFBiz,DT 2 NONE,0.587333668,0.171376234,z:\data\prediction_compare_3\within_OFBiz_DT 2 NONE_10_.pk,DT
+6090,within,5,OFBiz,DT 2 NONE,0.600765451,0.201304731,z:\data\prediction_compare_5\within_OFBiz_DT 2 NONE_10_.pk,DT
+7926,cross,2,OFBiz,DT 14 RUS,0.533894775,0.040296604,z:\data\prediction_compare_2\cross_OFBiz_DT 14 RUS_10.pk,DT
+9390,cross,3,OFBiz,DT 2 SMOTE,0.515684179,0.02935801,z:\data\prediction_compare_3\cross_OFBiz_DT 2 SMOTE_10.pk,DT
+9738,cross,5,OFBiz,DT 18 NONE,0.515200951,0.036473773,z:\data\prediction_compare_5\cross_OFBiz_DT 18 NONE_10.pk,DT
+127,timewise,2,Wicket,DT 14 NONE,0.564942194,0.099883947,z:\data\prediction_compare_2\timewise_Wicket_DT 14 NONE_10.pk,DT
+1291,timewise,3,Wicket,DT 2 NONE,0.540746655,0.078285864,z:\data\prediction_compare_3\timewise_Wicket_DT 2 NONE_10.pk,DT
+3403,timewise,5,Wicket,DT 6 SMOTE,0.534115077,0.059221216,z:\data\prediction_compare_5\timewise_Wicket_DT 6 SMOTE_10.pk,DT
+4303,within,2,Wicket,DT 6 RUS,0.589638227,0.123570117,z:\data\prediction_compare_2\within_Wicket_DT 6 RUS_10_.pk,DT
+4891,within,3,Wicket,DT 2 NONE,0.539106492,0.079253426,z:\data\prediction_compare_3\within_Wicket_DT 2 NONE_10_.pk,DT
+6139,within,5,Wicket,DT 18 NONE,0.530558128,0.059046423,z:\data\prediction_compare_5\within_Wicket_DT 18 NONE_10_.pk,DT
+7939,cross,2,Wicket,DT 18 RUS,0.598285959,0.135674454,z:\data\prediction_compare_2\cross_Wicket_DT 18 RUS_10.pk,DT
+9427,cross,3,Wicket,DT 14 SMOTE,0.523836109,0.039169958,z:\data\prediction_compare_3\cross_Wicket_DT 14 SMOTE_10.pk,DT
+10291,cross,5,Wicket,DT 2 RUS,0.508776583,0.014135167,z:\data\prediction_compare_5\cross_Wicket_DT 2 RUS_10.pk,DT
+404,timewise,2,Hibernate ORM,DT 6 ROS,0.522187603,0.044825151,z:\data\prediction_compare_2\timewise_Hibernate ORM_DT 6 ROS_10.pk,DT
+2192,timewise,3,Hibernate ORM,DT 2 SMOTE,0.516699234,0.027689412,z:\data\prediction_compare_3\timewise_Hibernate ORM_DT 2 SMOTE_10.pk,DT
+3404,timewise,5,Hibernate ORM,DT 6 SMOTE,0.510522256,0.017588956,z:\data\prediction_compare_5\timewise_Hibernate ORM_DT 6 SMOTE_10.pk,DT
+4616,within,2,Hibernate ORM,DT 10 SMOTE,0.555061807,0.107261503,z:\data\prediction_compare_2\within_Hibernate ORM_DT 10 SMOTE_10_.pk,DT
+6740,within,5,Hibernate ORM,DT 18 RUS,0.524963606,0.031676136,z:\data\prediction_compare_5\within_Hibernate ORM_DT 18 RUS_10_.pk,DT
+7892,cross,2,Hibernate ORM,DT 2 RUS,0.508776901,0.016841319,z:\data\prediction_compare_2\cross_Hibernate ORM_DT 2 RUS_10.pk,DT
+9440,cross,3,Hibernate ORM,DT 18 SMOTE,0.519970157,0.027093897,z:\data\prediction_compare_3\cross_Hibernate ORM_DT 18 SMOTE_10.pk,DT
+10304,cross,5,Hibernate ORM,DT 6 RUS,0.524896143,0.025122239,z:\data\prediction_compare_5\cross_Hibernate ORM_DT 6 RUS_10.pk,DT
+993,timewise,2,Hadoop HDFS,DT 2 SMOTE,0.612146082,0.222385379,z:\data\prediction_compare_2\timewise_Hadoop HDFS_DT 2 SMOTE_10.pk,DT
+1893,timewise,3,Hadoop HDFS,DT 2 RUS,0.543125892,0.086984201,z:\data\prediction_compare_3\timewise_Hadoop HDFS_DT 2 RUS_10.pk,DT
+3405,timewise,5,Hadoop HDFS,DT 6 SMOTE,0.537900605,0.070435746,z:\data\prediction_compare_5\timewise_Hadoop HDFS_DT 6 SMOTE_10.pk,DT
+3993,within,2,Hadoop HDFS,DT 2 ROS,0.695126263,0.391667053,z:\data\prediction_compare_2\within_Hadoop HDFS_DT 2 ROS_10_.pk,DT
+4893,within,3,Hadoop HDFS,DT 2 NONE,0.571858081,0.15257919,z:\data\prediction_compare_3\within_Hadoop HDFS_DT 2 NONE_10_.pk,DT
+6141,within,5,Hadoop HDFS,DT 18 NONE,0.580430001,0.153260625,z:\data\prediction_compare_5\within_Hadoop HDFS_DT 18 NONE_10_.pk,DT
+8205,cross,2,Hadoop HDFS,DT 6 SMOTE,0.602413479,0.200482758,z:\data\prediction_compare_2\cross_Hadoop HDFS_DT 6 SMOTE_10.pk,DT
+8493,cross,3,Hadoop HDFS,DT 2 NONE,0.539769232,0.077838027,z:\data\prediction_compare_3\cross_Hadoop HDFS_DT 2 NONE_10.pk,DT
+10617,cross,5,Hadoop HDFS,DT 10 SMOTE,0.52661035,0.040705643,z:\data\prediction_compare_5\cross_Hadoop HDFS_DT 10 SMOTE_10.pk,DT
+94,timewise,2,Harmony,DT 2 NONE,0.62065198,0.240214395,z:\data\prediction_compare_2\timewise_Harmony_DT 2 NONE_10.pk,DT
+1294,timewise,3,Harmony,DT 2 NONE,0.623169412,0.2214147,z:\data\prediction_compare_3\timewise_Harmony_DT 2 NONE_10.pk,DT
+3406,timewise,5,Harmony,DT 6 SMOTE,0.642340457,0.232437544,z:\data\prediction_compare_5\timewise_Harmony_DT 6 SMOTE_10.pk,DT
+4342,within,2,Harmony,DT 18 RUS,0.640595659,0.175983281,z:\data\prediction_compare_2\within_Harmony_DT 18 RUS_10_.pk,DT
+4894,within,3,Harmony,DT 2 NONE,0.618111103,0.229597085,z:\data\prediction_compare_3\within_Harmony_DT 2 NONE_10_.pk,DT
+6106,within,5,Harmony,DT 6 NONE,0.621539988,0.231615044,z:\data\prediction_compare_5\within_Harmony_DT 6 NONE_10_.pk,DT
+7318,cross,2,Harmony,DT 10 NONE,0.55812625,0.074800787,z:\data\prediction_compare_2\cross_Harmony_DT 10 NONE_10.pk,DT
+9406,cross,3,Harmony,DT 6 SMOTE,0.538494775,0.061492818,z:\data\prediction_compare_3\cross_Harmony_DT 6 SMOTE_10.pk,DT
+9706,cross,5,Harmony,DT 6 NONE,0.529262247,0.048044444,z:\data\prediction_compare_5\cross_Harmony_DT 6 NONE_10.pk,DT
+695,timewise,2,HBase,DT 2 RUS,0.610798941,0.223075353,z:\data\prediction_compare_2\timewise_HBase_DT 2 RUS_10.pk,DT
+2207,timewise,3,HBase,DT 6 SMOTE,0.543481567,0.088814724,z:\data\prediction_compare_3\timewise_HBase_DT 6 SMOTE_10.pk,DT
+3395,timewise,5,HBase,DT 2 SMOTE,0.539828577,0.072676791,z:\data\prediction_compare_5\timewise_HBase_DT 2 SMOTE_10.pk,DT
+4043,within,2,HBase,DT 18 ROS,0.685261285,0.369525987,z:\data\prediction_compare_2\within_HBase_DT 18 ROS_10_.pk,DT
+4907,within,3,HBase,DT 6 NONE,0.57021859,0.142369067,z:\data\prediction_compare_3\within_HBase_DT 6 NONE_10_.pk,DT
+7043,within,5,HBase,DT 18 SMOTE,0.566320277,0.119098813,z:\data\prediction_compare_5\within_HBase_DT 18 SMOTE_10_.pk,DT
+7319,cross,2,HBase,DT 10 NONE,0.581687865,0.163952776,z:\data\prediction_compare_2\cross_HBase_DT 10 NONE_10.pk,DT
+8831,cross,3,HBase,DT 14 ROS,0.526784097,0.060886846,z:\data\prediction_compare_3\cross_HBase_DT 14 ROS_10.pk,DT
+10043,cross,5,HBase,DT 18 ROS,0.522191424,0.039903624,z:\data\prediction_compare_5\cross_HBase_DT 18 ROS_10.pk,DT
+180,timewise,2,ZooKeeper,LR 0.0001 NONE,0.6221606,0.246892855,z:\data\prediction_compare_2\timewise_ZooKeeper_LR 0.0001 NONE_10.pk,LR
+2256,timewise,3,ZooKeeper,LR 0.01 SMOTE,0.545238913,0.100941091,z:\data\prediction_compare_3\timewise_ZooKeeper_LR 0.01 SMOTE_10.pk,LR
+3456,timewise,5,ZooKeeper,LR 0.01 SMOTE,0.538808491,0.080016243,z:\data\prediction_compare_5\timewise_ZooKeeper_LR 0.01 SMOTE_10.pk,LR
+3780,within,2,ZooKeeper,LR 0.0001 NONE,0.627429183,0.25928307,z:\data\prediction_compare_2\within_ZooKeeper_LR 0.0001 NONE_10_.pk,LR
+5568,within,3,ZooKeeper,LR 0.001 RUS,0.549515755,0.10956698,z:\data\prediction_compare_3\within_ZooKeeper_LR 0.001 RUS_10_.pk,LR
+7068,within,5,ZooKeeper,LR 0.001 SMOTE,0.528984184,0.065078059,z:\data\prediction_compare_5\within_ZooKeeper_LR 0.001 SMOTE_10_.pk,LR
+8280,cross,2,ZooKeeper,LR 0.0001 SMOTE,0.514285714,0.03497905,z:\data\prediction_compare_2\cross_ZooKeeper_LR 0.0001 SMOTE_10.pk,LR
+9480,cross,3,ZooKeeper,LR 0.0001 SMOTE,0.516968049,0.036973365,z:\data\prediction_compare_3\cross_ZooKeeper_LR 0.0001 SMOTE_10.pk,LR
+10680,cross,5,ZooKeeper,LR 0.0001 SMOTE,0.520256014,0.035814432,z:\data\prediction_compare_5\cross_ZooKeeper_LR 0.0001 SMOTE_10.pk,LR
+1081,timewise,2,Hadoop Common,LR 0.0001 SMOTE,0.622800916,0.236676917,z:\data\prediction_compare_2\timewise_Hadoop Common_LR 0.0001 SMOTE_10.pk,LR
+1681,timewise,3,Hadoop Common,LR 0.0001 ROS,0.534250837,0.073130532,z:\data\prediction_compare_3\timewise_Hadoop Common_LR 0.0001 ROS_10.pk,LR
+3457,timewise,5,Hadoop Common,LR 0.01 SMOTE,0.515948304,0.034754153,z:\data\prediction_compare_5\timewise_Hadoop Common_LR 0.01 SMOTE_10.pk,LR
+3781,within,2,Hadoop Common,LR 0.0001 NONE,0.643845572,0.289110515,z:\data\prediction_compare_2\within_Hadoop Common_LR 0.0001 NONE_10_.pk,LR
+5581,within,3,Hadoop Common,LR 0.0001 RUS,0.547426812,0.106056777,z:\data\prediction_compare_3\within_Hadoop Common_LR 0.0001 RUS_10_.pk,LR
+6469,within,5,Hadoop Common,LR 0.001 ROS,0.530687405,0.067914953,z:\data\prediction_compare_5\within_Hadoop Common_LR 0.001 ROS_10_.pk,LR
+7981,cross,2,Hadoop Common,LR 0.0001 RUS,0.50252668,0.005219264,z:\data\prediction_compare_2\cross_Hadoop Common_LR 0.0001 RUS_10.pk,LR
+9181,cross,3,Hadoop Common,LR 0.0001 RUS,0.509374171,0.013745433,z:\data\prediction_compare_3\cross_Hadoop Common_LR 0.0001 RUS_10.pk,LR
+10381,cross,5,Hadoop Common,LR 0.0001 RUS,0.529856251,0.073445386,z:\data\prediction_compare_5\cross_Hadoop Common_LR 0.0001 RUS_10.pk,LR
+1082,timewise,2,Hadoop Map/Reduce,LR 0.0001 SMOTE,0.616241276,0.228580672,z:\data\prediction_compare_2\timewise_Hadoop MapReduce_LR 0.0001 SMOTE_10.pk,LR
+1670,timewise,3,Hadoop Map/Reduce,LR 0.001 ROS,0.531283498,0.073885611,z:\data\prediction_compare_3\timewise_Hadoop MapReduce_LR 0.001 ROS_10.pk,LR
+3458,timewise,5,Hadoop Map/Reduce,LR 0.01 SMOTE,0.518333977,0.047050138,z:\data\prediction_compare_5\timewise_Hadoop MapReduce_LR 0.01 SMOTE_10.pk,LR
+3782,within,2,Hadoop Map/Reduce,LR 0.0001 NONE,0.660849784,0.331835195,z:\data\prediction_compare_2\within_Hadoop MapReduce_LR 0.0001 NONE_10_.pk,LR
+5582,within,3,Hadoop Map/Reduce,LR 0.0001 RUS,0.544707202,0.105868291,z:\data\prediction_compare_3\within_Hadoop MapReduce_LR 0.0001 RUS_10_.pk,LR
+6470,within,5,Hadoop Map/Reduce,LR 0.001 ROS,0.523884264,0.056484866,z:\data\prediction_compare_5\within_Hadoop MapReduce_LR 0.001 ROS_10_.pk,LR
+7982,cross,2,Hadoop Map/Reduce,LR 0.0001 RUS,0.522768486,0.048116899,z:\data\prediction_compare_2\cross_Hadoop MapReduce_LR 0.0001 RUS_10.pk,LR
+8846,cross,3,Hadoop Map/Reduce,LR 0.1 ROS,0.557352712,0.120858838,z:\data\prediction_compare_3\cross_Hadoop MapReduce_LR 0.1 ROS_10.pk,LR
+10382,cross,5,Hadoop Map/Reduce,LR 0.0001 RUS,0.546664884,0.087161404,z:\data\prediction_compare_5\cross_Hadoop MapReduce_LR 0.0001 RUS_10.pk,LR
+1083,timewise,2,Hive,LR 0.0001 SMOTE,0.580178087,0.160186599,z:\data\prediction_compare_2\timewise_Hive_LR 0.0001 SMOTE_10.pk,LR
+2259,timewise,3,Hive,LR 0.01 SMOTE,0.544653574,0.079239273,z:\data\prediction_compare_3\timewise_Hive_LR 0.01 SMOTE_10.pk,LR
+2859,timewise,5,Hive,LR 0.01 ROS,0.539533771,0.065028966,z:\data\prediction_compare_5\timewise_Hive_LR 0.01 ROS_10.pk,LR
+4083,within,2,Hive,LR 0.0001 ROS,0.623624854,0.24253305,z:\data\prediction_compare_2\within_Hive_LR 0.0001 ROS_10_.pk,LR
+5583,within,3,Hive,LR 0.0001 RUS,0.564561653,0.106001785,z:\data\prediction_compare_3\within_Hive_LR 0.0001 RUS_10_.pk,LR
+7071,within,5,Hive,LR 0.001 SMOTE,0.543116064,0.072821468,z:\data\prediction_compare_5\within_Hive_LR 0.001 SMOTE_10_.pk,LR
+7383,cross,2,Hive,LR 0.0001 NONE,0.539990567,0.121709366,z:\data\prediction_compare_2\cross_Hive_LR 0.0001 NONE_10.pk,LR
+8583,cross,3,Hive,LR 0.0001 NONE,0.501121574,0.018530225,z:\data\prediction_compare_3\cross_Hive_LR 0.0001 NONE_10.pk,LR
+10383,cross,5,Hive,LR 0.0001 RUS,0.51189935,0.039765087,z:\data\prediction_compare_5\cross_Hive_LR 0.0001 RUS_10.pk,LR
+1084,timewise,2,Cassandra,LR 0.0001 SMOTE,0.584577326,0.100404622,z:\data\prediction_compare_2\timewise_Cassandra_LR 0.0001 SMOTE_10.pk,LR
+1384,timewise,3,Cassandra,LR 0.0001 NONE,0.530588886,0.065365389,z:\data\prediction_compare_3\timewise_Cassandra_LR 0.0001 NONE_10.pk,LR
+3472,timewise,5,Cassandra,LR 0.001 SMOTE,0.519389983,0.036624354,z:\data\prediction_compare_5\timewise_Cassandra_LR 0.001 SMOTE_10.pk,LR
+4684,within,2,Cassandra,LR 0.0001 SMOTE,0.601364977,0.121559157,z:\data\prediction_compare_2\within_Cassandra_LR 0.0001 SMOTE_10_.pk,LR
+5572,within,3,Cassandra,LR 0.001 RUS,0.53421955,0.065604323,z:\data\prediction_compare_3\within_Cassandra_LR 0.001 RUS_10_.pk,LR
+6472,within,5,Cassandra,LR 0.001 ROS,0.526946556,0.050867038,z:\data\prediction_compare_5\within_Cassandra_LR 0.001 ROS_10_.pk,LR
+7384,cross,2,Cassandra,LR 0.0001 NONE,0.500166297,0.000473872,z:\data\prediction_compare_2\cross_Cassandra_LR 0.0001 NONE_10.pk,LR
+8584,cross,3,Cassandra,LR 0.0001 NONE,0.500368828,0.008244565,z:\data\prediction_compare_3\cross_Cassandra_LR 0.0001 NONE_10.pk,LR
+10084,cross,5,Cassandra,LR 0.0001 ROS,0.519024071,0.042400217,z:\data\prediction_compare_5\cross_Cassandra_LR 0.0001 ROS_10.pk,LR
+485,timewise,2,Camel,LR 0.0001 ROS,0.530198031,0.035930162,z:\data\prediction_compare_2\timewise_Camel_LR 0.0001 ROS_10.pk,LR
+1685,timewise,3,Camel,LR 0.0001 ROS,0.545081343,0.078752107,z:\data\prediction_compare_3\timewise_Camel_LR 0.0001 ROS_10.pk,LR
+2873,timewise,5,Camel,LR 0.001 ROS,0.524877927,0.037779298,z:\data\prediction_compare_5\timewise_Camel_LR 0.001 ROS_10.pk,LR
+4685,within,2,Camel,LR 0.0001 SMOTE,0.648155738,0.194713862,z:\data\prediction_compare_2\within_Camel_LR 0.0001 SMOTE_10_.pk,LR
+5585,within,3,Camel,LR 0.0001 RUS,0.522857729,0.060889108,z:\data\prediction_compare_3\within_Camel_LR 0.0001 RUS_10_.pk,LR
+6473,within,5,Camel,LR 0.001 ROS,0.528423576,0.070881581,z:\data\prediction_compare_5\within_Camel_LR 0.001 ROS_10_.pk,LR
+8285,cross,2,Camel,LR 0.0001 SMOTE,0.472685563,-0.03492175,z:\data\prediction_compare_2\cross_Camel_LR 0.0001 SMOTE_10.pk,LR
+9185,cross,3,Camel,LR 0.0001 RUS,0.513890667,0.005345406,z:\data\prediction_compare_3\cross_Camel_LR 0.0001 RUS_10.pk,LR
+10385,cross,5,Camel,LR 0.0001 RUS,0.541751854,0.062027239,z:\data\prediction_compare_5\cross_Camel_LR 0.0001 RUS_10.pk,LR
+1086,timewise,2,OFBiz,LR 0.0001 SMOTE,0.558762729,0.063712131,z:\data\prediction_compare_2\timewise_OFBiz_LR 0.0001 SMOTE_10.pk,LR
+1686,timewise,3,OFBiz,LR 0.0001 ROS,0.504607949,0.011109664,z:\data\prediction_compare_3\timewise_OFBiz_LR 0.0001 ROS_10.pk,LR
+2850,timewise,5,OFBiz,LR 0.1 ROS,0.500976414,0.006291221,z:\data\prediction_compare_5\timewise_OFBiz_LR 0.1 ROS_10.pk,LR
+4686,within,2,OFBiz,LR 0.0001 SMOTE,0.595129173,0.111208378,z:\data\prediction_compare_2\within_OFBiz_LR 0.0001 SMOTE_10_.pk,LR
+5574,within,3,OFBiz,LR 0.001 RUS,0.507893565,0.01976984,z:\data\prediction_compare_3\within_OFBiz_LR 0.001 RUS_10_.pk,LR
+7074,within,5,OFBiz,LR 0.001 SMOTE,0.530735282,0.06134838,z:\data\prediction_compare_5\within_OFBiz_LR 0.001 SMOTE_10_.pk,LR
+7386,cross,2,OFBiz,LR 0.0001 NONE,0.465020523,-0.055121536,z:\data\prediction_compare_2\cross_OFBiz_LR 0.0001 NONE_10.pk,LR
+8586,cross,3,OFBiz,LR 0.0001 NONE,0.535197555,0.070692671,z:\data\prediction_compare_3\cross_OFBiz_LR 0.0001 NONE_10.pk,LR
+10386,cross,5,OFBiz,LR 0.0001 RUS,0.514837225,0.042591982,z:\data\prediction_compare_5\cross_OFBiz_LR 0.0001 RUS_10.pk,LR
+487,timewise,2,Wicket,LR 0.0001 ROS,0.554709281,0.071684178,z:\data\prediction_compare_2\timewise_Wicket_LR 0.0001 ROS_10.pk,LR
+2251,timewise,3,Wicket,LR 0.1 SMOTE,0.523043226,0.041902749,z:\data\prediction_compare_3\timewise_Wicket_LR 0.1 SMOTE_10.pk,LR
+3475,timewise,5,Wicket,LR 0.001 SMOTE,0.514026964,0.029622362,z:\data\prediction_compare_5\timewise_Wicket_LR 0.001 SMOTE_10.pk,LR
+4387,within,2,Wicket,LR 0.0001 RUS,0.614518185,0.157257763,z:\data\prediction_compare_2\within_Wicket_LR 0.0001 RUS_10_.pk,LR
+5575,within,3,Wicket,LR 0.001 RUS,0.522665384,0.045800476,z:\data\prediction_compare_3\within_Wicket_LR 0.001 RUS_10_.pk,LR
+6475,within,5,Wicket,LR 0.001 ROS,0.52054698,0.040335146,z:\data\prediction_compare_5\within_Wicket_LR 0.001 ROS_10_.pk,LR
+7387,cross,2,Wicket,LR 0.0001 NONE,0.50088005,0.007829787,z:\data\prediction_compare_2\cross_Wicket_LR 0.0001 NONE_10.pk,LR
+8851,cross,3,Wicket,LR 0.1 ROS,0.560983219,0.109826653,z:\data\prediction_compare_3\cross_Wicket_LR 0.1 ROS_10.pk,LR
+10387,cross,5,Wicket,LR 0.0001 RUS,0.536670281,0.050558377,z:\data\prediction_compare_5\cross_Wicket_LR 0.0001 RUS_10.pk,LR
+788,timewise,2,Hibernate ORM,LR 0.0001 RUS,0.508202029,0.016795642,z:\data\prediction_compare_2\timewise_Hibernate ORM_LR 0.0001 RUS_10.pk,LR
+1688,timewise,3,Hibernate ORM,LR 0.0001 ROS,0.503361786,0.005926964,z:\data\prediction_compare_3\timewise_Hibernate ORM_LR 0.0001 ROS_10.pk,LR
+3476,timewise,5,Hibernate ORM,LR 0.001 SMOTE,0.511392272,0.008835628,z:\data\prediction_compare_5\timewise_Hibernate ORM_LR 0.001 SMOTE_10.pk,LR
+4388,within,2,Hibernate ORM,LR 0.0001 RUS,0.557020082,0.108973351,z:\data\prediction_compare_2\within_Hibernate ORM_LR 0.0001 RUS_10_.pk,LR
+5588,within,3,Hibernate ORM,LR 0.0001 RUS,0.532274925,0.045312286,z:\data\prediction_compare_3\within_Hibernate ORM_LR 0.0001 RUS_10_.pk,LR
+6476,within,5,Hibernate ORM,LR 0.001 ROS,0.529055786,0.033507556,z:\data\prediction_compare_5\within_Hibernate ORM_LR 0.001 ROS_10_.pk,LR
+7688,cross,2,Hibernate ORM,LR 0.0001 ROS,0.535945477,0.07470795,z:\data\prediction_compare_2\cross_Hibernate ORM_LR 0.0001 ROS_10.pk,LR
+8588,cross,3,Hibernate ORM,LR 0.0001 NONE,0.509159211,0.067264955,z:\data\prediction_compare_3\cross_Hibernate ORM_LR 0.0001 NONE_10.pk,LR
+10388,cross,5,Hibernate ORM,LR 0.0001 RUS,0.535133455,0.049550345,z:\data\prediction_compare_5\cross_Hibernate ORM_LR 0.0001 RUS_10.pk,LR
+189,timewise,2,Hadoop HDFS,LR 0.0001 NONE,0.591997632,0.180057387,z:\data\prediction_compare_2\timewise_Hadoop HDFS_LR 0.0001 NONE_10.pk,LR
+1689,timewise,3,Hadoop HDFS,LR 0.0001 ROS,0.530252252,0.068385871,z:\data\prediction_compare_3\timewise_Hadoop HDFS_LR 0.0001 ROS_10.pk,LR
+3465,timewise,5,Hadoop HDFS,LR 0.01 SMOTE,0.52657242,0.046815987,z:\data\prediction_compare_5\timewise_Hadoop HDFS_LR 0.01 SMOTE_10.pk,LR
+4389,within,2,Hadoop HDFS,LR 0.0001 RUS,0.6028367,0.202674457,z:\data\prediction_compare_2\within_Hadoop HDFS_LR 0.0001 RUS_10_.pk,LR
+5577,within,3,Hadoop HDFS,LR 0.001 RUS,0.528815178,0.061811398,z:\data\prediction_compare_3\within_Hadoop HDFS_LR 0.001 RUS_10_.pk,LR
+7077,within,5,Hadoop HDFS,LR 0.001 SMOTE,0.522532578,0.04780107,z:\data\prediction_compare_5\within_Hadoop HDFS_LR 0.001 SMOTE_10_.pk,LR
+7989,cross,2,Hadoop HDFS,LR 0.0001 RUS,0.557081056,0.125511046,z:\data\prediction_compare_2\cross_Hadoop HDFS_LR 0.0001 RUS_10.pk,LR
+8853,cross,3,Hadoop HDFS,LR 0.1 ROS,0.5613975,0.131603264,z:\data\prediction_compare_3\cross_Hadoop HDFS_LR 0.1 ROS_10.pk,LR
+10389,cross,5,Hadoop HDFS,LR 0.0001 RUS,0.537988242,0.070716206,z:\data\prediction_compare_5\cross_Hadoop HDFS_LR 0.0001 RUS_10.pk,LR
+790,timewise,2,Harmony,LR 0.0001 RUS,0.534595342,0.046073179,z:\data\prediction_compare_2\timewise_Harmony_LR 0.0001 RUS_10.pk,LR
+1690,timewise,3,Harmony,LR 0.0001 ROS,0.537304189,0.050226745,z:\data\prediction_compare_3\timewise_Harmony_LR 0.0001 ROS_10.pk,LR
+3478,timewise,5,Harmony,LR 0.001 SMOTE,0.523488718,0.032397396,z:\data\prediction_compare_5\timewise_Harmony_LR 0.001 SMOTE_10.pk,LR
+4390,within,2,Harmony,LR 0.0001 RUS,0.644998105,0.18165805,z:\data\prediction_compare_2\within_Harmony_LR 0.0001 RUS_10_.pk,LR
+5590,within,3,Harmony,LR 0.0001 RUS,0.524507211,0.056247634,z:\data\prediction_compare_3\within_Harmony_LR 0.0001 RUS_10_.pk,LR
+6478,within,5,Harmony,LR 0.001 ROS,0.53588763,0.067943781,z:\data\prediction_compare_5\within_Harmony_LR 0.001 ROS_10_.pk,LR
+7690,cross,2,Harmony,LR 0.0001 ROS,0.55235647,0.063849054,z:\data\prediction_compare_2\cross_Harmony_LR 0.0001 ROS_10.pk,LR
+9490,cross,3,Harmony,LR 0.0001 SMOTE,0.505528301,0.018176,z:\data\prediction_compare_3\cross_Harmony_LR 0.0001 SMOTE_10.pk,LR
+10390,cross,5,Harmony,LR 0.0001 RUS,0.548242726,0.079416576,z:\data\prediction_compare_5\cross_Harmony_LR 0.0001 RUS_10.pk,LR
+1091,timewise,2,HBase,LR 0.0001 SMOTE,0.622737442,0.261516231,z:\data\prediction_compare_2\timewise_HBase_LR 0.0001 SMOTE_10.pk,LR
+1991,timewise,3,HBase,LR 0.0001 RUS,0.524946807,0.057571163,z:\data\prediction_compare_3\timewise_HBase_LR 0.0001 RUS_10.pk,LR
+2867,timewise,5,HBase,LR 0.01 ROS,0.520788599,0.04269942,z:\data\prediction_compare_5\timewise_HBase_LR 0.01 ROS_10.pk,LR
+4091,within,2,HBase,LR 0.0001 ROS,0.672030675,0.343893986,z:\data\prediction_compare_2\within_HBase_LR 0.0001 ROS_10_.pk,LR
+5591,within,3,HBase,LR 0.0001 RUS,0.552723886,0.117516837,z:\data\prediction_compare_3\within_HBase_LR 0.0001 RUS_10_.pk,LR
+6479,within,5,HBase,LR 0.001 ROS,0.524248551,0.051763161,z:\data\prediction_compare_5\within_HBase_LR 0.001 ROS_10_.pk,LR
+8291,cross,2,HBase,LR 0.0001 SMOTE,0.502927829,0.005818254,z:\data\prediction_compare_2\cross_HBase_LR 0.0001 SMOTE_10.pk,LR
+8591,cross,3,HBase,LR 0.0001 NONE,0.511574253,0.060560945,z:\data\prediction_compare_3\cross_HBase_LR 0.0001 NONE_10.pk,LR
+10391,cross,5,HBase,LR 0.0001 RUS,0.517288396,0.044564462,z:\data\prediction_compare_5\cross_HBase_LR 0.0001 RUS_10.pk,LR
+828,timewise,2,ZooKeeper,MLP 0.0001 RUS,0.599131982,0.198785591,z:\data\prediction_compare_2\timewise_ZooKeeper_MLP 0.0001 RUS_10.pk,MLP
+1428,timewise,3,ZooKeeper,MLP 0.0001 NONE,0.538505927,0.078380122,z:\data\prediction_compare_3\timewise_ZooKeeper_MLP 0.0001 NONE_10.pk,MLP
+3528,timewise,5,ZooKeeper,MLP 0.0001 SMOTE,0.595476328,0.183380983,z:\data\prediction_compare_5\timewise_ZooKeeper_MLP 0.0001 SMOTE_10.pk,MLP
+4404,within,2,ZooKeeper,MLP 0.01 RUS,0.640447958,0.295245534,z:\data\prediction_compare_2\within_ZooKeeper_MLP 0.01 RUS_10_.pk,MLP
+5616,within,3,ZooKeeper,MLP 0.001 RUS,0.524889498,0.057785827,z:\data\prediction_compare_3\within_ZooKeeper_MLP 0.001 RUS_10_.pk,MLP
+7104,within,5,ZooKeeper,MLP 0.01 SMOTE,0.554860463,0.104777346,z:\data\prediction_compare_5\within_ZooKeeper_MLP 0.01 SMOTE_10_.pk,MLP
+8316,cross,2,ZooKeeper,MLP 0.001 SMOTE,0.685565476,0.373842381,z:\data\prediction_compare_2\cross_ZooKeeper_MLP 0.001 SMOTE_10.pk,MLP
+8928,cross,3,ZooKeeper,MLP 0.0001 ROS,0.560387116,0.144877466,z:\data\prediction_compare_3\cross_ZooKeeper_MLP 0.0001 ROS_10.pk,MLP
+10692,cross,5,ZooKeeper,MLP 0.1 SMOTE,0.538200938,0.070996266,z:\data\prediction_compare_5\cross_ZooKeeper_MLP 0.1 SMOTE_10.pk,MLP
+1129,timewise,2,Hadoop Common,MLP 0.0001 SMOTE,0.620936794,0.232012482,z:\data\prediction_compare_2\timewise_Hadoop Common_MLP 0.0001 SMOTE_10.pk,MLP
+1729,timewise,3,Hadoop Common,MLP 0.0001 ROS,0.530757246,0.060812557,z:\data\prediction_compare_3\timewise_Hadoop Common_MLP 0.0001 ROS_10.pk,MLP
+3517,timewise,5,Hadoop Common,MLP 0.001 SMOTE,0.533969929,0.062278613,z:\data\prediction_compare_5\timewise_Hadoop Common_MLP 0.001 SMOTE_10.pk,MLP
+4405,within,2,Hadoop Common,MLP 0.01 RUS,0.656415071,0.318682762,z:\data\prediction_compare_2\within_Hadoop Common_MLP 0.01 RUS_10_.pk,MLP
+5617,within,3,Hadoop Common,MLP 0.001 RUS,0.547075444,0.099258621,z:\data\prediction_compare_3\within_Hadoop Common_MLP 0.001 RUS_10_.pk,MLP
+7129,within,5,Hadoop Common,MLP 0.0001 SMOTE,0.553271707,0.104231964,z:\data\prediction_compare_5\within_Hadoop Common_MLP 0.0001 SMOTE_10_.pk,MLP
+8329,cross,2,Hadoop Common,MLP 0.0001 SMOTE,0.622471179,0.247166448,z:\data\prediction_compare_2\cross_Hadoop Common_MLP 0.0001 SMOTE_10.pk,MLP
+9229,cross,3,Hadoop Common,MLP 0.0001 RUS,0.541890089,0.097321813,z:\data\prediction_compare_3\cross_Hadoop Common_MLP 0.0001 RUS_10.pk,MLP
+10429,cross,5,Hadoop Common,MLP 0.0001 RUS,0.532840285,0.074650199,z:\data\prediction_compare_5\cross_Hadoop Common_MLP 0.0001 RUS_10.pk,MLP
+818,timewise,2,Hadoop Map/Reduce,MLP 0.001 RUS,0.623305319,0.247556185,z:\data\prediction_compare_2\timewise_Hadoop MapReduce_MLP 0.001 RUS_10.pk,MLP
+1730,timewise,3,Hadoop Map/Reduce,MLP 0.0001 ROS,0.543696521,0.088162719,z:\data\prediction_compare_3\timewise_Hadoop MapReduce_MLP 0.0001 ROS_10.pk,MLP
+2906,timewise,5,Hadoop Map/Reduce,MLP 0.01 ROS,0.537697412,0.07280052,z:\data\prediction_compare_5\timewise_Hadoop MapReduce_MLP 0.01 ROS_10.pk,MLP
+4418,within,2,Hadoop Map/Reduce,MLP 0.001 RUS,0.672383516,0.346427767,z:\data\prediction_compare_2\within_Hadoop MapReduce_MLP 0.001 RUS_10_.pk,MLP
+5618,within,3,Hadoop Map/Reduce,MLP 0.001 RUS,0.537417988,0.090065134,z:\data\prediction_compare_3\within_Hadoop MapReduce_MLP 0.001 RUS_10_.pk,MLP
+6518,within,5,Hadoop Map/Reduce,MLP 0.001 ROS,0.550017908,0.092527828,z:\data\prediction_compare_5\within_Hadoop MapReduce_MLP 0.001 ROS_10_.pk,MLP
+7418,cross,2,Hadoop Map/Reduce,MLP 0.001 NONE,0.680258661,0.360262408,z:\data\prediction_compare_2\cross_Hadoop MapReduce_MLP 0.001 NONE_10.pk,MLP
+8894,cross,3,Hadoop Map/Reduce,MLP 0.1 ROS,0.538479303,0.088971833,z:\data\prediction_compare_3\cross_Hadoop MapReduce_MLP 0.1 ROS_10.pk,MLP
+10418,cross,5,Hadoop Map/Reduce,MLP 0.001 RUS,0.542779826,0.075750977,z:\data\prediction_compare_5\cross_Hadoop MapReduce_MLP 0.001 RUS_10.pk,MLP
+831,timewise,2,Hive,MLP 0.0001 RUS,0.566277581,0.131447056,z:\data\prediction_compare_2\timewise_Hive_MLP 0.0001 RUS_10.pk,MLP
+2331,timewise,3,Hive,MLP 0.0001 SMOTE,0.549487533,0.083793132,z:\data\prediction_compare_3\timewise_Hive_MLP 0.0001 SMOTE_10.pk,MLP
+3531,timewise,5,Hive,MLP 0.0001 SMOTE,0.638633136,0.2234329,z:\data\prediction_compare_5\timewise_Hive_MLP 0.0001 SMOTE_10.pk,MLP
+4707,within,2,Hive,MLP 0.01 SMOTE,0.616816592,0.23324862,z:\data\prediction_compare_2\within_Hive_MLP 0.01 SMOTE_10_.pk,MLP
+5619,within,3,Hive,MLP 0.001 RUS,0.559032195,0.089752869,z:\data\prediction_compare_3\within_Hive_MLP 0.001 RUS_10_.pk,MLP
+6507,within,5,Hive,MLP 0.01 ROS,0.587476378,0.123038644,z:\data\prediction_compare_5\within_Hive_MLP 0.01 ROS_10_.pk,MLP
+7395,cross,2,Hive,MLP 0.1 NONE,0.608505716,0.211829395,z:\data\prediction_compare_2\cross_Hive_MLP 0.1 NONE_10.pk,MLP
+8931,cross,3,Hive,MLP 0.0001 ROS,0.530914907,0.063955706,z:\data\prediction_compare_3\cross_Hive_MLP 0.0001 ROS_10.pk,MLP
+10731,cross,5,Hive,MLP 0.0001 SMOTE,0.548104659,0.07080413,z:\data\prediction_compare_5\cross_Hive_MLP 0.0001 SMOTE_10.pk,MLP
+532,timewise,2,Cassandra,MLP 0.0001 ROS,0.596375593,0.126498481,z:\data\prediction_compare_2\timewise_Cassandra_MLP 0.0001 ROS_10.pk,MLP
+1396,timewise,3,Cassandra,MLP 0.1 NONE,0.536714386,0.071342856,z:\data\prediction_compare_3\timewise_Cassandra_MLP 0.1 NONE_10.pk,MLP
+2908,timewise,5,Cassandra,MLP 0.01 ROS,0.543235315,0.084524462,z:\data\prediction_compare_5\timewise_Cassandra_MLP 0.01 ROS_10.pk,MLP
+4096,within,2,Cassandra,MLP 0.1 ROS,0.613061932,0.179498026,z:\data\prediction_compare_2\within_Cassandra_MLP 0.1 ROS_10_.pk,MLP
+5608,within,3,Cassandra,MLP 0.01 RUS,0.53393904,0.063179136,z:\data\prediction_compare_3\within_Cassandra_MLP 0.01 RUS_10_.pk,MLP
+7132,within,5,Cassandra,MLP 0.0001 SMOTE,0.541977715,0.082690002,z:\data\prediction_compare_5\within_Cassandra_MLP 0.0001 SMOTE_10_.pk,MLP
+8032,cross,2,Cassandra,MLP 0.0001 RUS,0.557732816,0.070223485,z:\data\prediction_compare_2\cross_Cassandra_MLP 0.0001 RUS_10.pk,MLP
+9532,cross,3,Cassandra,MLP 0.0001 SMOTE,0.554658152,0.117054552,z:\data\prediction_compare_3\cross_Cassandra_MLP 0.0001 SMOTE_10.pk,MLP
+9808,cross,5,Cassandra,MLP 0.01 NONE,0.535942563,0.071688323,z:\data\prediction_compare_5\cross_Cassandra_MLP 0.01 NONE_10.pk,MLP
+809,timewise,2,Camel,MLP 0.01 RUS,0.50772146,0.001306891,z:\data\prediction_compare_2\timewise_Camel_MLP 0.01 RUS_10.pk,MLP
+1421,timewise,3,Camel,MLP 0.001 NONE,0.562501724,0.11858382,z:\data\prediction_compare_3\timewise_Camel_MLP 0.001 NONE_10.pk,MLP
+3497,timewise,5,Camel,MLP 0.1 SMOTE,0.534155593,0.04658821,z:\data\prediction_compare_5\timewise_Camel_MLP 0.1 SMOTE_10.pk,MLP
+4433,within,2,Camel,MLP 0.0001 RUS,0.59119844,0.121098394,z:\data\prediction_compare_2\within_Camel_MLP 0.0001 RUS_10_.pk,MLP
+5609,within,3,Camel,MLP 0.01 RUS,0.538960434,0.083999441,z:\data\prediction_compare_3\within_Camel_MLP 0.01 RUS_10_.pk,MLP
+6497,within,5,Camel,MLP 0.1 ROS,0.566686105,0.110882381,z:\data\prediction_compare_5\within_Camel_MLP 0.1 ROS_10_.pk,MLP
+8033,cross,2,Camel,MLP 0.0001 RUS,0.57687602,0.154596047,z:\data\prediction_compare_2\cross_Camel_MLP 0.0001 RUS_10.pk,MLP
+9521,cross,3,Camel,MLP 0.001 SMOTE,0.571801402,0.131338694,z:\data\prediction_compare_3\cross_Camel_MLP 0.001 SMOTE_10.pk,MLP
+10121,cross,5,Camel,MLP 0.001 ROS,0.565204542,0.118995543,z:\data\prediction_compare_5\cross_Camel_MLP 0.001 ROS_10.pk,MLP
+1098,timewise,2,OFBiz,MLP 0.1 SMOTE,0.537725858,0.057685359,z:\data\prediction_compare_2\timewise_OFBiz_MLP 0.1 SMOTE_10.pk,MLP
+2322,timewise,3,OFBiz,MLP 0.001 SMOTE,0.52260854,0.046125061,z:\data\prediction_compare_3\timewise_OFBiz_MLP 0.001 SMOTE_10.pk,MLP
+3510,timewise,5,OFBiz,MLP 0.01 SMOTE,0.528071468,0.053588781,z:\data\prediction_compare_5\timewise_OFBiz_MLP 0.01 SMOTE_10.pk,MLP
+4122,within,2,OFBiz,MLP 0.001 ROS,0.561538831,0.097962081,z:\data\prediction_compare_2\within_OFBiz_MLP 0.001 ROS_10_.pk,MLP
+5610,within,3,OFBiz,MLP 0.01 RUS,0.505337963,0.008113952,z:\data\prediction_compare_3\within_OFBiz_MLP 0.01 RUS_10_.pk,MLP
+6522,within,5,OFBiz,MLP 0.001 ROS,0.544748644,0.095422037,z:\data\prediction_compare_5\within_OFBiz_MLP 0.001 ROS_10_.pk,MLP
+8322,cross,2,OFBiz,MLP 0.001 SMOTE,0.558790861,0.101352311,z:\data\prediction_compare_2\cross_OFBiz_MLP 0.001 SMOTE_10.pk,MLP
+8598,cross,3,OFBiz,MLP 0.1 NONE,0.535982952,0.070197153,z:\data\prediction_compare_3\cross_OFBiz_MLP 0.1 NONE_10.pk,MLP
+9822,cross,5,OFBiz,MLP 0.001 NONE,0.52309897,0.057018596,z:\data\prediction_compare_5\cross_OFBiz_MLP 0.001 NONE_10.pk,MLP
+499,timewise,2,Wicket,MLP 0.1 ROS,0.515887139,0.032104104,z:\data\prediction_compare_2\timewise_Wicket_MLP 0.1 ROS_10.pk,MLP
+2323,timewise,3,Wicket,MLP 0.001 SMOTE,0.513714059,0.030632506,z:\data\prediction_compare_3\timewise_Wicket_MLP 0.001 SMOTE_10.pk,MLP
+3499,timewise,5,Wicket,MLP 0.1 SMOTE,0.522836168,0.040901695,z:\data\prediction_compare_5\timewise_Wicket_MLP 0.1 SMOTE_10.pk,MLP
+4099,within,2,Wicket,MLP 0.1 ROS,0.603314127,0.165133728,z:\data\prediction_compare_2\within_Wicket_MLP 0.1 ROS_10_.pk,MLP
+5623,within,3,Wicket,MLP 0.001 RUS,0.511151936,0.023642144,z:\data\prediction_compare_3\within_Wicket_MLP 0.001 RUS_10_.pk,MLP
+6535,within,5,Wicket,MLP 0.0001 ROS,0.524130541,0.03934384,z:\data\prediction_compare_5\within_Wicket_MLP 0.0001 ROS_10_.pk,MLP
+7735,cross,2,Wicket,MLP 0.0001 ROS,0.599930912,0.171046431,z:\data\prediction_compare_2\cross_Wicket_MLP 0.0001 ROS_10.pk,MLP
+8899,cross,3,Wicket,MLP 0.1 ROS,0.548309382,0.090026054,z:\data\prediction_compare_3\cross_Wicket_MLP 0.1 ROS_10.pk,MLP
+10735,cross,5,Wicket,MLP 0.0001 SMOTE,0.538648124,0.059272395,z:\data\prediction_compare_5\cross_Wicket_MLP 0.0001 SMOTE_10.pk,MLP
+800,timewise,2,Hibernate ORM,MLP 0.1 RUS,0.502716495,0.005042483,z:\data\prediction_compare_2\timewise_Hibernate ORM_MLP 0.1 RUS_10.pk,MLP
+2336,timewise,3,Hibernate ORM,MLP 0.0001 SMOTE,0.516082563,0.027710775,z:\data\prediction_compare_3\timewise_Hibernate ORM_MLP 0.0001 SMOTE_10.pk,MLP
+3524,timewise,5,Hibernate ORM,MLP 0.001 SMOTE,0.518086517,0.029398068,z:\data\prediction_compare_5\timewise_Hibernate ORM_MLP 0.001 SMOTE_10.pk,MLP
+4412,within,2,Hibernate ORM,MLP 0.01 RUS,0.553901126,0.103431603,z:\data\prediction_compare_2\within_Hibernate ORM_MLP 0.01 RUS_10_.pk,MLP
+5612,within,3,Hibernate ORM,MLP 0.01 RUS,0.519900108,0.036182597,z:\data\prediction_compare_3\within_Hibernate ORM_MLP 0.01 RUS_10_.pk,MLP
+7136,within,5,Hibernate ORM,MLP 0.0001 SMOTE,0.541706934,0.051530432,z:\data\prediction_compare_5\within_Hibernate ORM_MLP 0.0001 SMOTE_10_.pk,MLP
+8012,cross,2,Hibernate ORM,MLP 0.01 RUS,0.546675379,0.09615832,z:\data\prediction_compare_2\cross_Hibernate ORM_MLP 0.01 RUS_10.pk,MLP
+9536,cross,3,Hibernate ORM,MLP 0.0001 SMOTE,0.534023096,0.057961136,z:\data\prediction_compare_3\cross_Hibernate ORM_MLP 0.0001 SMOTE_10.pk,MLP
+10724,cross,5,Hibernate ORM,MLP 0.001 SMOTE,0.536427503,0.053846317,z:\data\prediction_compare_5\cross_Hibernate ORM_MLP 0.001 SMOTE_10.pk,MLP
+1113,timewise,2,Hadoop HDFS,MLP 0.01 SMOTE,0.569556241,0.139344682,z:\data\prediction_compare_2\timewise_Hadoop HDFS_MLP 0.01 SMOTE_10.pk,MLP
+1437,timewise,3,Hadoop HDFS,MLP 0.0001 NONE,0.526007263,0.054896714,z:\data\prediction_compare_3\timewise_Hadoop HDFS_MLP 0.0001 NONE_10.pk,MLP
+3501,timewise,5,Hadoop HDFS,MLP 0.1 SMOTE,0.544945422,0.082086275,z:\data\prediction_compare_5\timewise_Hadoop HDFS_MLP 0.1 SMOTE_10.pk,MLP
+4137,within,2,Hadoop HDFS,MLP 0.0001 ROS,0.60952862,0.22711851,z:\data\prediction_compare_2\within_Hadoop HDFS_MLP 0.0001 ROS_10_.pk,MLP
+5625,within,3,Hadoop HDFS,MLP 0.001 RUS,0.533599297,0.066646781,z:\data\prediction_compare_3\within_Hadoop HDFS_MLP 0.001 RUS_10_.pk,MLP
+6537,within,5,Hadoop HDFS,MLP 0.0001 ROS,0.545872943,0.089016973,z:\data\prediction_compare_5\within_Hadoop HDFS_MLP 0.0001 ROS_10_.pk,MLP
+7425,cross,2,Hadoop HDFS,MLP 0.001 NONE,0.673724954,0.343331493,z:\data\prediction_compare_2\cross_Hadoop HDFS_MLP 0.001 NONE_10.pk,MLP
+9537,cross,3,Hadoop HDFS,MLP 0.0001 SMOTE,0.560883743,0.12846431,z:\data\prediction_compare_3\cross_Hadoop HDFS_MLP 0.0001 SMOTE_10.pk,MLP
+10737,cross,5,Hadoop HDFS,MLP 0.0001 SMOTE,0.538964328,0.06870373,z:\data\prediction_compare_5\cross_Hadoop HDFS_MLP 0.0001 SMOTE_10.pk,MLP
+526,timewise,2,Harmony,MLP 0.001 ROS,0.560739555,0.118051957,z:\data\prediction_compare_2\timewise_Harmony_MLP 0.001 ROS_10.pk,MLP
+1738,timewise,3,Harmony,MLP 0.0001 ROS,0.574400837,0.134528823,z:\data\prediction_compare_3\timewise_Harmony_MLP 0.0001 ROS_10.pk,MLP
+3526,timewise,5,Harmony,MLP 0.001 SMOTE,0.584952474,0.13813737,z:\data\prediction_compare_5\timewise_Harmony_MLP 0.001 SMOTE_10.pk,MLP
+4138,within,2,Harmony,MLP 0.0001 ROS,0.60335828,0.165796658,z:\data\prediction_compare_2\within_Harmony_MLP 0.0001 ROS_10_.pk,MLP
+5614,within,3,Harmony,MLP 0.01 RUS,0.521747256,0.054633463,z:\data\prediction_compare_3\within_Harmony_MLP 0.01 RUS_10_.pk,MLP
+7138,within,5,Harmony,MLP 0.0001 SMOTE,0.600326808,0.165718507,z:\data\prediction_compare_5\within_Harmony_MLP 0.0001 SMOTE_10_.pk,MLP
+8302,cross,2,Harmony,MLP 0.1 SMOTE,0.656717128,0.200503944,z:\data\prediction_compare_2\cross_Harmony_MLP 0.1 SMOTE_10.pk,MLP
+9538,cross,3,Harmony,MLP 0.0001 SMOTE,0.588533384,0.160115521,z:\data\prediction_compare_3\cross_Harmony_MLP 0.0001 SMOTE_10.pk,MLP
+10738,cross,5,Harmony,MLP 0.0001 SMOTE,0.561774509,0.094657854,z:\data\prediction_compare_5\cross_Harmony_MLP 0.0001 SMOTE_10.pk,MLP
+515,timewise,2,HBase,MLP 0.01 ROS,0.572572078,0.160414074,z:\data\prediction_compare_2\timewise_HBase_MLP 0.01 ROS_10.pk,MLP
+1727,timewise,3,HBase,MLP 0.001 ROS,0.520952267,0.050201954,z:\data\prediction_compare_3\timewise_HBase_MLP 0.001 ROS_10.pk,MLP
+2939,timewise,5,HBase,MLP 0.0001 ROS,0.519724472,0.042336508,z:\data\prediction_compare_5\timewise_HBase_MLP 0.0001 ROS_10.pk,MLP
+4127,within,2,HBase,MLP 0.001 ROS,0.693022387,0.390469506,z:\data\prediction_compare_2\within_HBase_MLP 0.001 ROS_10_.pk,MLP
+5627,within,3,HBase,MLP 0.001 RUS,0.541580757,0.096964721,z:\data\prediction_compare_3\within_HBase_MLP 0.001 RUS_10_.pk,MLP
+7103,within,5,HBase,MLP 0.1 SMOTE,0.547785057,0.095125732,z:\data\prediction_compare_5\within_HBase_MLP 0.1 SMOTE_10_.pk,MLP
+7427,cross,2,HBase,MLP 0.001 NONE,0.643134959,0.286506865,z:\data\prediction_compare_2\cross_HBase_MLP 0.001 NONE_10.pk,MLP
+8915,cross,3,HBase,MLP 0.01 ROS,0.535864911,0.076718641,z:\data\prediction_compare_3\cross_HBase_MLP 0.01 ROS_10.pk,MLP
+10739,cross,5,HBase,MLP 0.0001 SMOTE,0.52417632,0.056519095,z:\data\prediction_compare_5\cross_HBase_MLP 0.0001 SMOTE_10.pk,MLP
+864,timewise,2,ZooKeeper,ADA 100 RUS,0.657707033,0.311489674,z:\data\prediction_compare_2\timewise_ZooKeeper_ADA 100 RUS_10.pk,ADA
+2352,timewise,3,ZooKeeper,ADA 60 SMOTE,0.534160406,0.078884202,z:\data\prediction_compare_3\timewise_ZooKeeper_ADA 60 SMOTE_10.pk,ADA
+3576,timewise,5,ZooKeeper,ADA 150 SMOTE,0.548699796,0.101842985,z:\data\prediction_compare_5\timewise_ZooKeeper_ADA 150 SMOTE_10.pk,ADA
+4464,within,2,ZooKeeper,ADA 100 RUS,0.664517457,0.331935349,z:\data\prediction_compare_2\within_ZooKeeper_ADA 100 RUS_10_.pk,ADA
+5952,within,3,ZooKeeper,ADA 60 SMOTE,0.594191659,0.192241531,z:\data\prediction_compare_3\within_ZooKeeper_ADA 60 SMOTE_10_.pk,ADA
+7164,within,5,ZooKeeper,ADA 100 SMOTE,0.5575021,0.108699181,z:\data\prediction_compare_5\within_ZooKeeper_ADA 100 SMOTE_10_.pk,ADA
+8052,cross,2,ZooKeeper,ADA 60 RUS,0.696577381,0.395411874,z:\data\prediction_compare_2\cross_ZooKeeper_ADA 60 RUS_10.pk,ADA
+8964,cross,3,ZooKeeper,ADA 100 ROS,0.561212211,0.133117915,z:\data\prediction_compare_3\cross_ZooKeeper_ADA 100 ROS_10.pk,ADA
+10152,cross,5,ZooKeeper,ADA 60 ROS,0.551579392,0.100508265,z:\data\prediction_compare_5\cross_ZooKeeper_ADA 60 ROS_10.pk,ADA
+1141,timewise,2,Hadoop Common,ADA 10 SMOTE,0.643050378,0.273669439,z:\data\prediction_compare_2\timewise_Hadoop Common_ADA 10 SMOTE_10.pk,ADA
+2089,timewise,3,Hadoop Common,ADA 200 RUS,0.540869273,0.0857165,z:\data\prediction_compare_3\timewise_Hadoop Common_ADA 200 RUS_10.pk,ADA
+3565,timewise,5,Hadoop Common,ADA 100 SMOTE,0.530420928,0.061558171,z:\data\prediction_compare_5\timewise_Hadoop Common_ADA 100 SMOTE_10.pk,ADA
+3853,within,2,Hadoop Common,ADA 60 NONE,0.744058251,0.488957067,z:\data\prediction_compare_2\within_Hadoop Common_ADA 60 NONE_10_.pk,ADA
+5365,within,3,Hadoop Common,ADA 100 ROS,0.60444127,0.212063873,z:\data\prediction_compare_3\within_Hadoop Common_ADA 100 ROS_10_.pk,ADA
+6565,within,5,Hadoop Common,ADA 100 ROS,0.570786019,0.144001644,z:\data\prediction_compare_5\within_Hadoop Common_ADA 100 ROS_10_.pk,ADA
+7465,cross,2,Hadoop Common,ADA 100 NONE,0.675046679,0.355035335,z:\data\prediction_compare_2\cross_Hadoop Common_ADA 100 NONE_10.pk,ADA
+8953,cross,3,Hadoop Common,ADA 60 ROS,0.551406781,0.112085413,z:\data\prediction_compare_3\cross_Hadoop Common_ADA 60 ROS_10.pk,ADA
+10453,cross,5,Hadoop Common,ADA 60 RUS,0.541746524,0.091122257,z:\data\prediction_compare_5\cross_Hadoop Common_ADA 60 RUS_10.pk,ADA
+266,timewise,2,Hadoop Map/Reduce,ADA 100 NONE,0.635755168,0.277439882,z:\data\prediction_compare_2\timewise_Hadoop MapReduce_ADA 100 NONE_10.pk,ADA
+2090,timewise,3,Hadoop Map/Reduce,ADA 200 RUS,0.550925814,0.103958182,z:\data\prediction_compare_3\timewise_Hadoop MapReduce_ADA 200 RUS_10.pk,ADA
+3554,timewise,5,Hadoop Map/Reduce,ADA 60 SMOTE,0.52496735,0.048248947,z:\data\prediction_compare_5\timewise_Hadoop MapReduce_ADA 60 SMOTE_10.pk,ADA
+4766,within,2,Hadoop Map/Reduce,ADA 100 SMOTE,0.739666999,0.48288373,z:\data\prediction_compare_2\within_Hadoop MapReduce_ADA 100 SMOTE_10_.pk,ADA
+5366,within,3,Hadoop Map/Reduce,ADA 100 ROS,0.59605957,0.192504632,z:\data\prediction_compare_3\within_Hadoop MapReduce_ADA 100 ROS_10_.pk,ADA
+6554,within,5,Hadoop Map/Reduce,ADA 60 ROS,0.554014448,0.108100655,z:\data\prediction_compare_5\within_Hadoop MapReduce_ADA 60 ROS_10_.pk,ADA
+7490,cross,2,Hadoop Map/Reduce,ADA 200 NONE,0.682142833,0.363222099,z:\data\prediction_compare_2\cross_Hadoop MapReduce_ADA 200 NONE_10.pk,ADA
+8990,cross,3,Hadoop Map/Reduce,ADA 200 ROS,0.571427871,0.145890478,z:\data\prediction_compare_3\cross_Hadoop MapReduce_ADA 200 ROS_10.pk,ADA
+10154,cross,5,Hadoop Map/Reduce,ADA 60 ROS,0.547662249,0.084589797,z:\data\prediction_compare_5\cross_Hadoop MapReduce_ADA 60 ROS_10.pk,ADA
+867,timewise,2,Hive,ADA 100 RUS,0.563845579,0.120327741,z:\data\prediction_compare_2\timewise_Hive_ADA 100 RUS_10.pk,ADA
+2091,timewise,3,Hive,ADA 200 RUS,0.525351293,0.042776297,z:\data\prediction_compare_3\timewise_Hive_ADA 200 RUS_10.pk,ADA
+3543,timewise,5,Hive,ADA 10 SMOTE,0.553169242,0.088832372,z:\data\prediction_compare_5\timewise_Hive_ADA 10 SMOTE_10.pk,ADA
+4167,within,2,Hive,ADA 100 ROS,0.677935199,0.363440706,z:\data\prediction_compare_2\within_Hive_ADA 100 ROS_10_.pk,ADA
+5367,within,3,Hive,ADA 100 ROS,0.622494182,0.20195676,z:\data\prediction_compare_3\within_Hive_ADA 100 ROS_10_.pk,ADA
+6555,within,5,Hive,ADA 60 ROS,0.582974454,0.114967906,z:\data\prediction_compare_5\within_Hive_ADA 60 ROS_10_.pk,ADA
+8091,cross,2,Hive,ADA 200 RUS,0.648473823,0.294280626,z:\data\prediction_compare_2\cross_Hive_ADA 200 RUS_10.pk,ADA
+9267,cross,3,Hive,ADA 100 RUS,0.569871476,0.11912636,z:\data\prediction_compare_3\cross_Hive_ADA 100 RUS_10.pk,ADA
+10491,cross,5,Hive,ADA 200 RUS,0.577074107,0.100125727,z:\data\prediction_compare_5\cross_Hive_ADA 200 RUS_10.pk,ADA
+856,timewise,2,Cassandra,ADA 60 RUS,0.579226814,0.092461705,z:\data\prediction_compare_2\timewise_Cassandra_ADA 60 RUS_10.pk,ADA
+1444,timewise,3,Cassandra,ADA 10 NONE,0.552841212,0.110715131,z:\data\prediction_compare_3\timewise_Cassandra_ADA 10 NONE_10.pk,ADA
+3580,timewise,5,Cassandra,ADA 150 SMOTE,0.520130429,0.042096486,z:\data\prediction_compare_5\timewise_Cassandra_ADA 150 SMOTE_10.pk,ADA
+4480,within,2,Cassandra,ADA 150 RUS,0.630055396,0.156322746,z:\data\prediction_compare_2\within_Cassandra_ADA 150 RUS_10_.pk,ADA
+5956,within,3,Cassandra,ADA 60 SMOTE,0.578185976,0.150672206,z:\data\prediction_compare_3\within_Cassandra_ADA 60 SMOTE_10_.pk,ADA
+6256,within,5,Cassandra,ADA 60 NONE,0.564111831,0.129995321,z:\data\prediction_compare_5\within_Cassandra_ADA 60 NONE_10_.pk,ADA
+8080,cross,2,Cassandra,ADA 150 RUS,0.543694568,0.067773917,z:\data\prediction_compare_2\cross_Cassandra_ADA 150 RUS_10.pk,ADA
+8992,cross,3,Cassandra,ADA 200 ROS,0.544430536,0.088546621,z:\data\prediction_compare_3\cross_Cassandra_ADA 200 ROS_10.pk,ADA
+10492,cross,5,Cassandra,ADA 200 RUS,0.54042546,0.072021323,z:\data\prediction_compare_5\cross_Cassandra_ADA 200 RUS_10.pk,ADA
+545,timewise,2,Camel,ADA 10 ROS,0.615130397,0.169687522,z:\data\prediction_compare_2\timewise_Camel_ADA 10 ROS_10.pk,ADA
+1745,timewise,3,Camel,ADA 10 ROS,0.554293388,0.100355237,z:\data\prediction_compare_3\timewise_Camel_ADA 10 ROS_10.pk,ADA
+3581,timewise,5,Camel,ADA 150 SMOTE,0.535664621,0.061375648,z:\data\prediction_compare_5\timewise_Camel_ADA 150 SMOTE_10.pk,ADA
+4493,within,2,Camel,ADA 200 RUS,0.629689979,0.168431119,z:\data\prediction_compare_2\within_Camel_ADA 200 RUS_10_.pk,ADA
+5369,within,3,Camel,ADA 100 ROS,0.583202261,0.15358913,z:\data\prediction_compare_3\within_Camel_ADA 100 ROS_10_.pk,ADA
+6557,within,5,Camel,ADA 60 ROS,0.538309115,0.060661842,z:\data\prediction_compare_5\within_Camel_ADA 60 ROS_10_.pk,ADA
+8045,cross,2,Camel,ADA 10 RUS,0.572746737,0.100633854,z:\data\prediction_compare_2\cross_Camel_ADA 10 RUS_10.pk,ADA
+9257,cross,3,Camel,ADA 60 RUS,0.582983408,0.153052446,z:\data\prediction_compare_3\cross_Camel_ADA 60 RUS_10.pk,ADA
+10445,cross,5,Camel,ADA 10 RUS,0.548023655,0.083230047,z:\data\prediction_compare_5\cross_Camel_ADA 10 RUS_10.pk,ADA
+894,timewise,2,OFBiz,ADA 200 RUS,0.564179589,0.079199552,z:\data\prediction_compare_2\timewise_OFBiz_ADA 200 RUS_10.pk,ADA
+1482,timewise,3,OFBiz,ADA 150 NONE,0.520889426,0.045721167,z:\data\prediction_compare_3\timewise_OFBiz_ADA 150 NONE_10.pk,ADA
+3582,timewise,5,OFBiz,ADA 150 SMOTE,0.512439759,0.024461646,z:\data\prediction_compare_5\timewise_OFBiz_ADA 150 SMOTE_10.pk,ADA
+4146,within,2,OFBiz,ADA 10 ROS,0.641132981,0.177033949,z:\data\prediction_compare_2\within_OFBiz_ADA 10 ROS_10_.pk,ADA
+5958,within,3,OFBiz,ADA 60 SMOTE,0.573863884,0.145107429,z:\data\prediction_compare_3\within_OFBiz_ADA 60 SMOTE_10_.pk,ADA
+7158,within,5,OFBiz,ADA 60 SMOTE,0.559820946,0.117950779,z:\data\prediction_compare_5\within_OFBiz_ADA 60 SMOTE_10_.pk,ADA
+7746,cross,2,OFBiz,ADA 10 ROS,0.515472193,0.065700276,z:\data\prediction_compare_2\cross_OFBiz_ADA 10 ROS_10.pk,ADA
+8694,cross,3,OFBiz,ADA 200 NONE,0.540303055,0.086402058,z:\data\prediction_compare_3\cross_OFBiz_ADA 200 NONE_10.pk,ADA
+9858,cross,5,OFBiz,ADA 60 NONE,0.526774788,0.054118099,z:\data\prediction_compare_5\cross_OFBiz_ADA 60 NONE_10.pk,ADA
+1159,timewise,2,Wicket,ADA 60 SMOTE,0.579030438,0.141739087,z:\data\prediction_compare_2\timewise_Wicket_ADA 60 SMOTE_10.pk,ADA
+1771,timewise,3,Wicket,ADA 100 ROS,0.525297677,0.055998067,z:\data\prediction_compare_3\timewise_Wicket_ADA 100 ROS_10.pk,ADA
+3583,timewise,5,Wicket,ADA 150 SMOTE,0.514167082,0.024704875,z:\data\prediction_compare_5\timewise_Wicket_ADA 150 SMOTE_10.pk,ADA
+4483,within,2,Wicket,ADA 150 RUS,0.657905023,0.22018861,z:\data\prediction_compare_2\within_Wicket_ADA 150 RUS_10_.pk,ADA
+5383,within,3,Wicket,ADA 150 ROS,0.555398319,0.10560492,z:\data\prediction_compare_3\within_Wicket_ADA 150 ROS_10_.pk,ADA
+6583,within,5,Wicket,ADA 150 ROS,0.529589458,0.053290564,z:\data\prediction_compare_5\within_Wicket_ADA 150 ROS_10_.pk,ADA
+7783,cross,2,Wicket,ADA 150 ROS,0.61920154,0.184856074,z:\data\prediction_compare_2\cross_Wicket_ADA 150 ROS_10.pk,ADA
+9259,cross,3,Wicket,ADA 60 RUS,0.558767728,0.11409464,z:\data\prediction_compare_3\cross_Wicket_ADA 60 RUS_10.pk,ADA
+10495,cross,5,Wicket,ADA 200 RUS,0.530403803,0.050368852,z:\data\prediction_compare_5\cross_Wicket_ADA 200 RUS_10.pk,ADA
+296,timewise,2,Hibernate ORM,ADA 200 NONE,0.529267087,0.059971516,z:\data\prediction_compare_2\timewise_Hibernate ORM_ADA 200 NONE_10.pk,ADA
+2096,timewise,3,Hibernate ORM,ADA 200 RUS,0.510138075,0.019216884,z:\data\prediction_compare_3\timewise_Hibernate ORM_ADA 200 RUS_10.pk,ADA
+3584,timewise,5,Hibernate ORM,ADA 150 SMOTE,0.501383106,0.006197331,z:\data\prediction_compare_5\timewise_Hibernate ORM_ADA 150 SMOTE_10.pk,ADA
+4148,within,2,Hibernate ORM,ADA 10 ROS,0.570539307,0.138365739,z:\data\prediction_compare_2\within_Hibernate ORM_ADA 10 ROS_10_.pk,ADA
+5372,within,3,Hibernate ORM,ADA 100 ROS,0.541432012,0.071073425,z:\data\prediction_compare_3\within_Hibernate ORM_ADA 100 ROS_10_.pk,ADA
+6584,within,5,Hibernate ORM,ADA 150 ROS,0.531014007,0.040061261,z:\data\prediction_compare_5\within_Hibernate ORM_ADA 150 ROS_10_.pk,ADA
+8072,cross,2,Hibernate ORM,ADA 100 RUS,0.535467914,0.069824069,z:\data\prediction_compare_2\cross_Hibernate ORM_ADA 100 RUS_10.pk,ADA
+8984,cross,3,Hibernate ORM,ADA 150 ROS,0.5489758,0.08063755,z:\data\prediction_compare_3\cross_Hibernate ORM_ADA 150 ROS_10.pk,ADA
+10148,cross,5,Hibernate ORM,ADA 10 ROS,0.527773141,0.037927387,z:\data\prediction_compare_5\cross_Hibernate ORM_ADA 10 ROS_10.pk,ADA
+297,timewise,2,Hadoop HDFS,ADA 200 NONE,0.636013046,0.273815664,z:\data\prediction_compare_2\timewise_Hadoop HDFS_ADA 200 NONE_10.pk,ADA
+1497,timewise,3,Hadoop HDFS,ADA 200 NONE,0.544102861,0.118597979,z:\data\prediction_compare_3\timewise_Hadoop HDFS_ADA 200 NONE_10.pk,ADA
+3573,timewise,5,Hadoop HDFS,ADA 100 SMOTE,0.513375425,0.034706498,z:\data\prediction_compare_5\timewise_Hadoop HDFS_ADA 100 SMOTE_10.pk,ADA
+4473,within,2,Hadoop HDFS,ADA 100 RUS,0.722676768,0.438846735,z:\data\prediction_compare_2\within_Hadoop HDFS_ADA 100 RUS_10_.pk,ADA
+5373,within,3,Hadoop HDFS,ADA 100 ROS,0.595207923,0.190284899,z:\data\prediction_compare_3\within_Hadoop HDFS_ADA 100 ROS_10_.pk,ADA
+6585,within,5,Hadoop HDFS,ADA 150 ROS,0.567437189,0.133269375,z:\data\prediction_compare_5\within_Hadoop HDFS_ADA 150 ROS_10_.pk,ADA
+7461,cross,2,Hadoop HDFS,ADA 60 NONE,0.661908015,0.324613597,z:\data\prediction_compare_2\cross_Hadoop HDFS_ADA 60 NONE_10.pk,ADA
+9261,cross,3,Hadoop HDFS,ADA 60 RUS,0.562486299,0.122942211,z:\data\prediction_compare_3\cross_Hadoop HDFS_ADA 60 RUS_10.pk,ADA
+10485,cross,5,Hadoop HDFS,ADA 150 RUS,0.545903941,0.083124657,z:\data\prediction_compare_5\cross_Hadoop HDFS_ADA 150 RUS_10.pk,ADA
+586,timewise,2,Harmony,ADA 150 ROS,0.618150991,0.255896066,z:\data\prediction_compare_2\timewise_Harmony_ADA 150 ROS_10.pk,ADA
+1774,timewise,3,Harmony,ADA 100 ROS,0.561545477,0.117770525,z:\data\prediction_compare_3\timewise_Harmony_ADA 100 ROS_10.pk,ADA
+3550,timewise,5,Harmony,ADA 10 SMOTE,0.529081999,0.039415204,z:\data\prediction_compare_5\timewise_Harmony_ADA 10 SMOTE_10.pk,ADA
+4150,within,2,Harmony,ADA 10 ROS,0.721122795,0.297671596,z:\data\prediction_compare_2\within_Harmony_ADA 10 ROS_10_.pk,ADA
+5374,within,3,Harmony,ADA 100 ROS,0.617999273,0.214963162,z:\data\prediction_compare_3\within_Harmony_ADA 100 ROS_10_.pk,ADA
+6262,within,5,Harmony,ADA 60 NONE,0.573784966,0.170606558,z:\data\prediction_compare_5\within_Harmony_ADA 60 NONE_10_.pk,ADA
+8374,cross,2,Harmony,ADA 100 SMOTE,0.639312577,0.24273593,z:\data\prediction_compare_2\cross_Harmony_ADA 100 SMOTE_10.pk,ADA
+8950,cross,3,Harmony,ADA 10 ROS,0.573106401,0.139169055,z:\data\prediction_compare_3\cross_Harmony_ADA 10 ROS_10.pk,ADA
+10162,cross,5,Harmony,ADA 60 ROS,0.556204787,0.075521831,z:\data\prediction_compare_5\cross_Harmony_ADA 60 ROS_10.pk,ADA
+1163,timewise,2,HBase,ADA 60 SMOTE,0.654313694,0.313985434,z:\data\prediction_compare_2\timewise_HBase_ADA 60 SMOTE_10.pk,ADA
+1751,timewise,3,HBase,ADA 10 ROS,0.549375909,0.104786317,z:\data\prediction_compare_3\timewise_HBase_ADA 10 ROS_10.pk,ADA
+3551,timewise,5,HBase,ADA 10 SMOTE,0.545301348,0.079070587,z:\data\prediction_compare_5\timewise_HBase_ADA 10 SMOTE_10.pk,ADA
+3887,within,2,HBase,ADA 150 NONE,0.736139148,0.477289595,z:\data\prediction_compare_2\within_HBase_ADA 150 NONE_10_.pk,ADA
+5375,within,3,HBase,ADA 100 ROS,0.593613692,0.197489949,z:\data\prediction_compare_3\within_HBase_ADA 100 ROS_10_.pk,ADA
+6575,within,5,HBase,ADA 100 ROS,0.556795404,0.117903687,z:\data\prediction_compare_5\within_HBase_ADA 100 ROS_10_.pk,ADA
+8375,cross,2,HBase,ADA 100 SMOTE,0.658859123,0.314880918,z:\data\prediction_compare_2\cross_HBase_ADA 100 SMOTE_10.pk,ADA
+9263,cross,3,HBase,ADA 60 RUS,0.553605048,0.121689739,z:\data\prediction_compare_3\cross_HBase_ADA 60 RUS_10.pk,ADA
+10475,cross,5,HBase,ADA 100 RUS,0.527851956,0.056256749,z:\data\prediction_compare_5\cross_HBase_ADA 100 RUS_10.pk,ADA
